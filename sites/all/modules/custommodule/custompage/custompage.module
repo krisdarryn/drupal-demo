@@ -1,0 +1,712 @@
+<?php
+module_load_include('inc', 'custompage', 'custompage.common');
+module_load_include('inc', 'custompage', 'custompage.groupa');
+module_load_include('inc', 'custompage', 'custompage.ajaxapi');
+module_load_include('inc', 'custompage', 'custompage.blocks');
+
+/**
+ * Implements hook_menu()
+ */
+function custompage_menu() {
+   $items['home'] =  array(
+      'page callback' => 'landing_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['staff'] =  array(
+      'page callback' => 'staff_list_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['graduates'] =  array(
+      'page callback' => 'graduate_list_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['blog'] =  array(
+      'page callback' => 'blog_overview_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['press'] =  array(
+      'page callback' => 'press_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['contact'] =  array(
+      'page callback' => 'contact_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['event'] =  array(
+      'page callback' => 'event_overview_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['event/%'] =  array(
+      'page callback' => 'event_detail_page',
+      'page arguments' => array(1),
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['jobs'] =  array(
+      'page callback' => 'job_overview_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['partners'] =  array(
+      'page callback' => 'partners_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['internships'] =  array(
+      'page callback' => 'internships_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['scholarship'] =  array(
+      'page callback' => 'scholarship_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['booking/%'] =  array(
+      'page callback' => 'booking_page',
+      'page arguments' => array(1),
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['about'] =  array(
+      'page callback' => 'about_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['course'] =  array(
+      'page callback' => 'course_overview_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['short-courses'] =  array(
+      'page callback' => 'short_course_overview_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['course/long/%'] =  array(
+      'page callback' => 'long_course',
+      'page arguments' => array(1),
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['course/short/%'] =  array(
+      'page callback' => 'short_course',
+      'page arguments' => array(1),
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['student-work'] =  array(
+      'page callback' => 'student_work_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['executive-course'] =  array(
+      'page callback' => 'executive_course_overview_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['coming-soon'] =  array(
+      'page callback' => 'coming_soon_page',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   
+   // AJAX API
+   $items['ajax/api/show-project-details'] =  array(
+      'page callback' => 'show_project_details',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/show-all-teachers'] =  array(
+      'page callback' => 'show_all_teachers',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/show-teacher-details'] =  array(
+      'page callback' => 'show_teacher_details',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/show-all-graduates'] =  array(
+      'page callback' => 'show_all_graduates',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/show-graduate-details'] =  array(
+      'page callback' => 'show_graduate_details',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/show-more-jobs'] =  array(
+      'page callback' => 'show_more_jobs',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/show-newsletter-form'] =  array(
+      'page callback' => 'show_newsletter_form',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/load-more-residential-proj'] =  array(
+      'page callback' => 'load_more_residential_projects',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/load-more-commercial-proj'] =  array(
+      'page callback' => 'load_more_commercial_projects',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   $items['ajax/api/newsletter-regsiter'] =  array(
+      'page callback' => 'newsletter_register',
+      'access callback' => TRUE,
+      'type' => MENU_CALLBACK,
+   );
+   
+   return $items;
+}
+
+/**
+ * Implements hook_theme()
+ */
+function custompage_theme() {
+   return array(
+      'block-header' => array(
+			'template' => 'block-header',
+			'path' => drupal_get_path('theme','insight').'/templates',
+		),
+      'block-landing-header' => array(
+			'template' => 'block-landing-header',
+			'path' => drupal_get_path('theme','insight').'/templates',
+		),
+      'block-footer' => array(
+			'template' => 'block-footer',
+			'path' => drupal_get_path('theme','insight').'/templates',
+		),
+      'block-landing-footer' => array(
+			'template' => 'block-landing-footer',
+			'path' => drupal_get_path('theme','insight').'/templates',
+		),
+      'landing_template' => array(
+         'template' => 'page-landing',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'staff_list_template' => array(
+         'template' => 'page-staff-list',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_staff_list' => array(
+         'template' => 'block-staff-list',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'staff_detail_template' => array(
+         'template' => 'block-staff-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'graduate_list_template' => array(
+         'template' => 'page-graduate-list',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_graduate_list' => array(
+         'template' => 'block-graduate-list',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'graduate_detail_template' => array(
+         'template' => 'block-graduate-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'blog_overview_template' => array(
+         'template' => 'page-blog-overview',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'blog_detail_template' => array(
+         'template' => 'page-blog-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'press_template' => array(
+         'template' => 'page-press',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'contact_template' => array(
+         'template' => 'page-contact',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'event_overview_template' => array(
+         'template' => 'page-event-overview',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'event_detail_template' => array(
+         'template' => 'page-event-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'job_overview_template' => array(
+         'template' => 'page-job-overview',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_job_list' => array(
+         'template' => 'block-job-list',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'partners_template' => array(
+         'template' => 'page-partners',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'internships_template' => array(
+         'template' => 'page-internships',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'scholarship_template' => array(
+         'template' => 'page-scholarship',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'booking_registration_template' => array(
+         'template' => 'page-booking-registration',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'booking_payment_template' => array(
+         'template' => 'page-booking-payment',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'booking_confirmation_template' => array(
+         'template' => 'page-booking-confirmation',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'about_template' => array(
+         'template' => 'page-about',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'newsletter_form_template' => array(
+         'template' => 'block-newsletter',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'student_work_template' => array(
+         'template' => 'page-student-work',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'project_detail_template' => array(
+         'template' => 'block-project-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_student_work_list_template' => array(
+         'template' => 'block-student-work-list',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_pagination_template' => array(
+         'template' => 'block-pagination',
+         'path' => drupal_get_path('theme','insight').'/templates',
+      ),     
+      'short_course_detail_template' => array(
+         'template' => 'page-short-course-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'long_course_detail_template' => array(
+         'template' => 'page-long-course-details',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),     
+      'course_overview_template' => array(
+         'template' => 'page-course-overview',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'short_course_overview_template' => array(
+         'template' => 'page-short-course-overview',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_discover_secondary_menu_template' => array(
+         'template' => 'block-discover-secondary-menu',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_collaborate_secondary_menu_template' => array(
+         'template' => 'block-collaborate-secondary-menu',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'executive_course_overview_template' => array(
+         'template' => 'page-executive-course-overview',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'block_custom_messages_template' => array(
+         'template' => 'block-messages',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ), 
+      'block_email_template' => array(
+         'template' => 'block-email-template',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+      'coming_soon_template' => array(
+         'template' => 'page-coming-soon',
+         'path' => drupal_get_path('theme','insight').'/templates'
+      ),
+   );
+}
+
+/**
+ * Implements hook_block_info()
+ * Create custom block
+ */
+function custompage_block_info() {
+   $blocks = array();
+   
+   $blocks['custom-header'] = array(
+      'info' => t('Custom Header Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['custom-landing-header'] = array(
+      'info' => t('Custom Landing Page Header Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['custom-footer'] = array(
+      'info' => t('Custom Footer Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['custom-landing-footer'] = array(
+      'info' => t('Custom Landing Page Footer Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['pagination'] = array(
+      'info' => t('Pagination Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['discover-secondary-menu'] = array(
+      'info' => t('Discover Insight - Secondary Menu Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['collaborate-secondary-menu'] = array(
+      'info' => t('Collaborate - Secondary Menu Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['collaborate-secondary-menu'] = array(
+      'info' => t('Collaborate - Secondary Menu Block'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['email-template'] = array(
+      'info' => t('Email Template'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   $blocks['custom-messages'] = array(
+      'info' => t('Messages'),
+      'cache' => DRUPAL_NO_CACHE,
+   );
+   
+   return $blocks;
+}
+
+/**
+ * Implements hook_block_view()
+ */
+function custompage_block_view($blockName='', $params=array()) {
+   switch ($blockName) {
+      case 'custom-header':
+         return _block_header();
+      case 'custom-landing-header':
+         return _block_landing_header($params);
+      case 'custom-footer':
+         return _block_footer();
+      case 'custom-landing-footer':
+         return _block_landing_footer();
+      case 'pagination':
+         return _block_pagination($params);
+      case 'discover-secondary-menu':
+         return _block_discover_secondary_menu($params);
+      case 'collaborate-secondary-menu':
+         return _block_collaborate_secondary_menu($params);
+      case 'email_template':
+         return _block_email_template($params);
+      case 'custom-messages':
+         return _block_custom_messages($params);
+   }
+}
+
+/**
+ * Implements hook_form_views_exposed_form_alter()
+ */
+function custompage_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {   
+   // Override Course filter in registration list view
+   // From a textfeld form to select field form
+   if (isset($form['field_registration_course_target_id'])) {
+      $form['field_registration_course_target_id'] = array(
+         '#type' => 'select',
+         '#options' => get_course_filter_options(),
+         '#default_value' => '',
+      );
+   }
+}
+
+function get_course_filter_options() {
+   $list = array('' => ' - Any - ');
+   $courseTypeVoc = taxonomy_vocabulary_machine_name_load('course_type');
+   $shortCourseTypeTid =  get_taxonomy_term_id_by_name('Short', $courseTypeVoc->vid);
+
+   if ($shortCourseTypeTid > 0) {
+      // Fetch short courses
+      $query = db_select('node', 'n');
+      $query->join('field_data_field_c_course_type', 'ct', 'ct.entity_id = n.nid');
+      $query->fields('n', array('nid', 'title'));
+      $query->condition('n.type', 'course', '=');
+      $query->condition('ct.field_c_course_type_tid', $shortCourseTypeTid, '=');
+      $result = $query->execute();
+
+      while ($record = $result->fetchAssoc()) {
+         $list[$record['nid']] = $record['title'];
+      }
+   }
+    
+    return $list;
+}
+
+function custompage_form_alter(&$form, &$form_state, $form_id) {    
+
+   if ($form_id == 'blog_node_form') {
+      
+      if (isset($form['#node']->nid) && ($form['#node']->nid > 0)) {
+         $imagePlacementVal = $quotePlacementVal = [
+            '_none' => '- None -',
+         ];
+         
+         if (!empty($form['#node']->field_blog_contents['und'])) {
+            foreach ($form['#node']->field_blog_contents['und'] as $key => $val) {
+               $imagePlacementVal[$key] = $key;
+               $quotePlacementVal[$key] = $key;
+            }
+            
+            $form['field_blog_images_placement']['und']['#options'] = $imagePlacementVal;
+            $form['field_blog_quote_placement']['und']['#options'] = $imagePlacementVal;
+            
+            if (
+               isset($form['field_blog_images_placement']['und']) && 
+               isset($form['field_blog_images_placement']['und']['#entity']->field_blog_images_placement['und']) && 
+               $form['field_blog_images_placement']['und']['#entity']->field_blog_images_placement['und'][0]['value'] != null
+            ) {
+                  $form['field_blog_images_placement']['und']['#default_value'] = $form['field_blog_images_placement']['und']['#entity']->field_blog_images_placement['und'][0]['value'];
+            }
+            
+            if (
+               isset($form['field_blog_quote_placement']['und']) && 
+               isset($form['field_blog_quote_placement']['und']['#entity']->field_blog_quote_placement['und']) &&
+               $form['field_blog_quote_placement']['und']['#entity']->field_blog_quote_placement['und'][0]['value'] != null
+            ) {
+                  $form['field_blog_quote_placement']['und']['#default_value'] = $form['field_blog_quote_placement']['und']['#entity']->field_blog_quote_placement['und'][0]['value'];
+            }
+            
+         } else {
+            $form['field_blog_images_placement']['und']['#default_value'] = '_none';
+            $form['field_blog_quote_placement']['und']['#default_value'] = '_none';
+         }
+         
+      }  
+      
+      $form['#submit'][] = 'blog_node_form_submit_callback';
+   }
+
+   if ($form_id == 'course_node_form') {
+      $form['#validate'][] = 'short_course_form_valdidate';
+   }
+}
+
+function short_course_form_valdidate($form, &$form_state) {
+   
+   if (!$form['nid']['#value']) {
+      // If create and course type = short
+      // Check if Introductory and there are Duration List entry
+      // Add validation: Duration Start and End Dates are required
+      if ($form['field_c_course_type']['und']['#value'] == 9) {
+         $errMsg = [];
+         
+         if (
+            isset($_POST['field_c_is_introductory_course']) && 
+            isset($_POST['field_c_is_introductory_course']['und']) && 
+            ($_POST['field_c_is_introductory_course']['und'] == 1)
+         ) {
+            
+            if (
+               isset($_POST['field_c_duration_list']) && 
+               isset($_POST['field_c_duration_list']['und']) && 
+               !empty($_POST['field_c_duration_list']['und'])
+            ) {
+               
+               foreach ($_POST['field_c_duration_list']['und'] as $i => $item) {
+                  $_errMsg = [];
+                  
+                  if (
+                     isset($item['field_cdur_start_date']) &&
+                     isset($item['field_cdur_start_date']['und']) &&
+                     !$item['field_cdur_start_date']['und'][0]['value']['date']
+                  ) {
+                     $_errMsg[] = 'Introductory Duration start date is required.';
+                  }
+                  
+                  if (
+                     isset($item['field_cdur_end_date']) &&
+                     isset($item['field_cdur_end_date']['und']) &&
+                     !$item['field_cdur_end_date']['und'][0]['value']['date']
+                  ) {
+                     $_errMsg[] = 'Introductory Duration end date is required.';
+                  }
+                  
+                  if (!empty($_errMsg)) {
+                     $errMsg[] = "Duration {$item['field_cdur_duration_title']['und'][0]['value']}: " . implode(' & ', $_errMsg);
+                  }
+                  
+               }
+                  
+            }
+            
+         }
+         
+         foreach ($errMsg as $i => $msg) {
+            form_set_error("short_course-{$i}", $msg);
+         }
+         
+      }
+      
+      
+   } else if ($form['nid']['#value']) {
+      // If edit
+      // Check if Introductory and there are Duration List entry
+      // Add validation: Duration Start and End Dates are required
+      if ($form['field_c_course_type']['und']['#value'] == 9) {
+         $errMsg = [];
+         
+         if (
+            isset($_POST['field_c_is_introductory_course']) && 
+            isset($_POST['field_c_is_introductory_course']['und']) && 
+            ($_POST['field_c_is_introductory_course']['und'] == 1)
+         ) {
+            
+            if (
+               isset($_POST['field_c_duration_list']) && 
+               isset($_POST['field_c_duration_list']['und']) && 
+               !empty($_POST['field_c_duration_list']['und'])
+            ) {
+               
+               foreach ($_POST['field_c_duration_list']['und'] as $i => $item) {
+                  $_errMsg = [];
+                  
+                  if (
+                     isset($item['field_cdur_start_date']) &&
+                     isset($item['field_cdur_start_date']['und']) &&
+                     !$item['field_cdur_start_date']['und'][0]['value']['date']
+                  ) {
+                     $_errMsg[] = 'Introductory Duration start date is required.';
+                  }
+                  
+                  if (
+                     isset($item['field_cdur_end_date']) &&
+                     isset($item['field_cdur_end_date']['und']) &&
+                     !$item['field_cdur_end_date']['und'][0]['value']['date']
+                  ) {
+                     $_errMsg[] = 'Introductory Duration end date is required.';
+                  }
+                  
+                  if (!empty($_errMsg)) {
+                     $errMsg[] = "Duration {$item['field_cdur_duration_title']['und'][0]['value']}: " . implode(' & ', $_errMsg);
+                  }
+                  
+               }
+                  
+            }
+            
+         }
+         
+         foreach ($errMsg as $i => $msg) {
+            form_set_error("short_course-{$i}", $msg);
+         }
+         
+      }
+      
+   }
+   
+   
+}
+
+function blog_node_form_submit_callback($form, &$form_state) {
+   // Manual update field_blog_images_placement and field_blog_quote_placement
+   if ($form['nid']['#value']) {
+      $node = node_load($form['nid']['#value']);
+      $node_wrapper = entity_metadata_wrapper('node', $node);
+      $node_wrapper->field_blog_images_placement->set(($_POST['field_blog_images_placement']['und'] == '_none' ? -1  : $_POST['field_blog_images_placement']['und']));
+      $node_wrapper->field_blog_quote_placement->set(($_POST['field_blog_quote_placement']['und'] == '_none' ?  -1 : $_POST['field_blog_quote_placement']['und']));
+      $node_wrapper->save();
+   }
+}
+
+/**
+ * Check if given menu item is active
+ *
+ * @param array|null $menuItem
+ * @return boolean
+ */
+function isMenuActive($menuItem = null) {
+   
+   if (!empty($menuItem)) {
+      $activeMenu = menu_get_active_trail();
+      
+      foreach ($activeMenu as $item) {
+         
+         if (!isset($item['mlid'])) {
+            continue;
+         }
+         
+         if (
+            isset($item['mlid']) && 
+            isset($menuItem['mlid']) && 
+            !empty($item['href']) && 
+            !empty($menuItem['href']) && 
+            ($item['href'] == $menuItem['href'])
+         ) {
+            return true;
+         }
+         
+      }
+      
+   }
+   
+   return false;
+}
+
+/**
+ * Check if Parent Menu is active base on its children menu
+ *
+ * @param array|null
+ * @return boolean
+ */
+function isParentMenuActive($children = null) {
+   if (!empty($children)) {
+      $activeMenu = menu_get_active_trail();
+
+      foreach ($activeMenu as $item) {
+         
+         if (!isset($item['mlid'])) {
+            continue;
+         }
+         
+         foreach ($children as $child) {
+            
+            if (
+               isset($item['mlid']) &&
+               isset($child['link']['mlid']) &&
+               !empty($item['href']) &&
+               !empty($child['link']['href']) &&
+               ($item['href'] == $child['link']['href'])
+            ) {
+               return true;
+            }
+            
+         }
+            
+      }
+      
+   }
+   
+   return false;
+}
+
+function custompage_cron() {
+   remindPendingRegistration();
+   updateIntroShortCourseDuration();
+}

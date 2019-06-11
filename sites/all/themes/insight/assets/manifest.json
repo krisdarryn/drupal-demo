@@ -1,0 +1,174 @@
+{
+  "dependencies": {
+    "fonts": {
+      "files": [
+        "fonts/**/*",
+        "bootstrap/assets/fonts/**/*",
+        "bower_components/font-awesome/fonts/**/*",
+        "bower_components/slick-carousel/slick/fonts/**/*"
+      ]
+    },
+    "images": {
+      "files": [
+        "images/**/*",
+        "bower_components/slick-carousel/slick/ajax-loader.gif*"
+      ]
+    },
+	 "bower.css": {
+		"files": [
+			"scss/style.scss",
+			"bower_components/font-awesome/scss/font-awesome.scss",
+         "bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.css",
+         "bower_components/slick-carousel/slick/slick.css",
+         "bower_components/slick-carousel/slick/slick-theme.css",
+         "bower_components/bootstrap3-dialog/dist/css/bootstrap-dialog.css"
+		]
+	 },
+    "styles.css": {
+      "files": [
+        "scss/insight-styles.scss"
+      ]
+    },
+    "polyfill.js": {
+      "bower": [
+        "respond",
+        "html5shiv",
+        "placeholders"
+      ]
+    },
+	 "insight.js": {
+      "files": [
+        "scripts/common.js",
+        "scripts/common/index.js"
+      ]
+    },
+    "bower.js": {
+      "files": [
+         "bower_components/jquery/dist/jquery.min.js",
+         "bootstrap/assets/javascripts/bootstrap.js",
+         "bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js",
+         "bower_components/readmore-js/readmore.js",
+         "bower_components/slick-carousel/slick/slick.min.js",
+         "bower_components/sticky.js/dist/sticky.min.js",
+         "bower_components/masonry/dist/masonry.pkgd.min.js",
+         "bower_components/gsap/src/uncompressed/TweenMax.js",
+         "bower_components/gsap/src/uncompressed/jquery.gsap.js",
+         "bower_components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js",
+         "bower_components/shufflejs/dist/shuffle.js",
+         "bower_components/imagesloaded/imagesloaded.pkgd.js",
+         "bower_components/vanilla-lazyload/dist/lazyload.min.js",
+         "bower_components/gasparesganga-jquery-loading-overlay/src/loadingoverlay.min.js"
+      ]
+    },
+    "course.js": {
+      "files": [
+        "scripts/course/index.js"
+      ]
+  },
+    "about-us.js": {
+        "files": [
+          "scripts/common.js",
+          "scripts/about/index.js"
+        ]
+    },
+    "staff.js": {
+      "files": [
+        "scripts/staff/index.js"
+      ]
+    },
+    "long-course.js": {
+      "files": [
+        "scripts/common.js",
+        "scripts/long-course/index.js"
+      ]
+    },
+    "booking.js": {
+      "files": [
+        "scripts/booking/index.js"
+      ]
+    },
+    "graduates.js": {
+      "files": [
+        "scripts/graduates/index.js"
+      ]
+    },
+    "student-works.js": {
+      "files": [
+        "scripts/student-works/index.js"
+      ]
+    },
+    "press.js": {
+      "files": [
+        "scripts/press/index.js"
+      ]
+    },
+    "jobs.js": {
+      "files": [
+        "scripts/jobs/index.js"
+      ]
+    },
+    "short-course.js": {
+      "files": [
+        "scripts/common.js",
+        "scripts/short-course/index.js"
+      ]
+    },
+    "internship.js": {
+      "files": [
+        "scripts/common.js",
+        "scripts/internship/index.js"
+      ]
+    },
+    "scholarships.js": {
+      "files": [
+        "scripts/scholarships/index.js"
+      ]
+    },
+    "landing.js": {
+      "files": [
+        "scripts/landing/index.js"
+      ]
+    },
+    "blog.js": {
+      "files": [
+        "scripts/blog/index.js"
+      ]
+    },
+    "event.js": {
+      "files": [
+        "scripts/event/index.js"
+      ]
+    },
+    "contact.js": {
+      "files": [
+        "scripts/contact/index.js"
+      ]
+    },
+    "executive-course.js": {
+      "files": [
+        "scripts/executive-course/index.js"
+      ]
+    },
+    "partners.js": {
+      "files": [
+        "scripts/partners/index.js"
+      ]
+    },
+    "short-course-overview.js": {
+      "files": [
+        "scripts/short-course-overview/index.js"
+      ]
+    }
+  },
+  "paths": {
+    "source": "./",
+    "dist": "../dist/"
+  },
+  "config": {
+    "site": "backend",
+    "rewriteCssUrl": "dist/",
+    "bowerComponentsToKeep": [
+      "tinymce"
+    ]
+  }
+}

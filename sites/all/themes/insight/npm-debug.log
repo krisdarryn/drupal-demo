@@ -1,0 +1,1222 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\package.json
+5 verbose install where, deps [ 'c:\\Users\\mary grace\\Documents\\Lian\\work\\vagrant env_php7\\html\\insight-test\\sites\\all\\themes\\insight',
+5 verbose install   [ 'asset-builder',
+5 verbose install     'bower',
+5 verbose install     'browser-sync',
+5 verbose install     'del',
+5 verbose install     'favicons',
+5 verbose install     'gulp',
+5 verbose install     'gulp-autoprefixer',
+5 verbose install     'gulp-changed',
+5 verbose install     'gulp-cli',
+5 verbose install     'gulp-concat',
+5 verbose install     'gulp-cssnano',
+5 verbose install     'gulp-favicons',
+5 verbose install     'gulp-flatten',
+5 verbose install     'gulp-if',
+5 verbose install     'gulp-imagemin',
+5 verbose install     'gulp-jshint',
+5 verbose install     'gulp-less',
+5 verbose install     'gulp-plumber',
+5 verbose install     'gulp-rename',
+5 verbose install     'gulp-rev',
+5 verbose install     'gulp-rewrite-css',
+5 verbose install     'gulp-sass',
+5 verbose install     'gulp-sourcemaps',
+5 verbose install     'gulp-uglify',
+5 verbose install     'gulp-util',
+5 verbose install     'imagemin-pngcrush',
+5 verbose install     'jshint',
+5 verbose install     'jshint-stylish',
+5 verbose install     'lazypipe',
+5 verbose install     'merge-stream',
+5 verbose install     'minimist',
+5 verbose install     'run-sequence',
+5 verbose install     'traverse',
+5 verbose install     'wiredep',
+5 verbose install     'shufflejs' ] ]
+6 verbose install where, peers [ 'c:\\Users\\mary grace\\Documents\\Lian\\work\\vagrant env_php7\\html\\insight-test\\sites\\all\\themes\\insight',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\package.json
+8 info preinstall toolbox-4@4.1.2
+9 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\asset-builder\package.json
+10 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\bower\package.json
+11 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\browser-sync\package.json
+12 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\del\package.json
+13 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\favicons\package.json
+14 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp\package.json
+15 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-autoprefixer\package.json
+16 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-changed\package.json
+17 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-cli\package.json
+18 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-concat\package.json
+19 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-cssnano\package.json
+20 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-favicons\package.json
+21 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-flatten\package.json
+22 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-if\package.json
+23 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-imagemin\package.json
+24 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-jshint\package.json
+25 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-less\package.json
+26 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-plumber\package.json
+27 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-rename\package.json
+28 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-rev\package.json
+29 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-rewrite-css\package.json
+30 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-sass\package.json
+31 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-sourcemaps\package.json
+32 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-uglify\package.json
+33 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-util\package.json
+34 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\imagemin-pngcrush\package.json
+35 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\jshint\package.json
+36 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\jshint-stylish\package.json
+37 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\lazypipe\package.json
+38 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\merge-stream\package.json
+39 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\minimist\package.json
+40 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\run-sequence\package.json
+41 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\traverse\package.json
+42 verbose installManyTop reading scoped package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\wiredep\package.json
+43 info package.json gulp-rename@1.2.2 No license field.
+44 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\package.json
+45 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\asset-builder\package.json
+46 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\bower\package.json
+47 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\browser-sync\package.json
+48 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\del\package.json
+49 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\favicons\package.json
+50 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp\package.json
+51 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-autoprefixer\package.json
+52 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-changed\package.json
+53 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-cli\package.json
+54 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-concat\package.json
+55 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-cssnano\package.json
+56 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-favicons\package.json
+57 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-flatten\package.json
+58 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-if\package.json
+59 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-imagemin\package.json
+60 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-jshint\package.json
+61 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-less\package.json
+62 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-plumber\package.json
+63 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-rename\package.json
+64 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-rev\package.json
+65 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-rewrite-css\package.json
+66 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-sass\package.json
+67 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-sourcemaps\package.json
+68 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-uglify\package.json
+69 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\gulp-util\package.json
+70 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\imagemin-pngcrush\package.json
+71 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\jshint\package.json
+72 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\jshint-stylish\package.json
+73 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\lazypipe\package.json
+74 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\merge-stream\package.json
+75 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\minimist\package.json
+76 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\run-sequence\package.json
+77 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\traverse\package.json
+78 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\wiredep\package.json
+79 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\bower\package.json
+80 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\bower.cmd\package.json
+81 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\browser-sync\package.json
+82 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\browser-sync.cmd\package.json
+83 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\gulp\package.json
+84 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\gulp.cmd\package.json
+85 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\jshint\package.json
+86 verbose targetResolver reading package data from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\.bin\jshint.cmd\package.json
+87 silly cache add args [ 'shufflejs@^5.0.3', null ]
+88 verbose cache add spec shufflejs@^5.0.3
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'shufflejs@^5.0.3',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'shufflejs',
+89 silly cache add   rawSpec: '^5.0.3',
+89 silly cache add   spec: '>=5.0.3 <6.0.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed shufflejs@>=5.0.3 <6.0.0
+91 verbose addNamed ">=5.0.3 <6.0.0" is a valid semver range for shufflejs
+92 silly addNameRange { name: 'shufflejs', range: '>=5.0.3 <6.0.0', hasData: false }
+93 silly mapToRegistry name shufflejs
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'shufflejs',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   name: 'shufflejs',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/shufflejs
+98 verbose addNameRange registry:https://registry.npmjs.org/shufflejs not in flight; fetching
+99 verbose already installed skipping asset-builder@^1.1.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+100 verbose already installed skipping bower@^1.8.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+101 verbose already installed skipping browser-sync@^2.8.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+102 verbose already installed skipping del@^2.2.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+103 verbose already installed skipping favicons@^4.7.3 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+104 verbose already installed skipping gulp@^3.9.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+105 verbose already installed skipping gulp-autoprefixer@^3.1.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+106 verbose already installed skipping gulp-changed@^1.3.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+107 verbose already installed skipping gulp-cli@^1.4.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+108 verbose already installed skipping gulp-concat@^2.6.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+109 verbose already installed skipping gulp-cssnano@^2.1.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+110 verbose already installed skipping gulp-favicons@^2.2.6 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+111 verbose already installed skipping gulp-flatten@0.3.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+112 verbose already installed skipping gulp-if@^2.0.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+113 verbose already installed skipping gulp-imagemin@^3.0.3 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+114 verbose already installed skipping gulp-jshint@^2.0.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+115 verbose already installed skipping gulp-less@^3.0.3 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+116 verbose already installed skipping gulp-plumber@^1.0.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+117 verbose already installed skipping gulp-rename@^1.2.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+118 verbose already installed skipping gulp-rev@^7.1.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+119 verbose already installed skipping gulp-rewrite-css@0.0.9 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+120 verbose already installed skipping gulp-sass@^2.0.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+121 verbose already installed skipping gulp-sourcemaps@^1.5.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+122 verbose already installed skipping gulp-uglify@^2.0.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+123 verbose already installed skipping gulp-util@^3.0.7 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+124 verbose request uri https://registry.npmjs.org/shufflejs
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 5:56:43 PM
+127 verbose request id 80632167d0af8ed3
+128 http request GET https://registry.npmjs.org/shufflejs
+129 verbose already installed skipping imagemin-pngcrush@^5.0.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+130 verbose already installed skipping jshint@^2.9.3 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+131 verbose already installed skipping jshint-stylish@^2.0.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+132 verbose already installed skipping lazypipe@^1.0.1 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+133 verbose already installed skipping merge-stream@^1.0.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+134 verbose already installed skipping minimist@^1.1.3 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+135 verbose already installed skipping run-sequence@^1.1.2 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+136 verbose already installed skipping traverse@^0.6.6 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+137 verbose already installed skipping wiredep@^4.0.0 c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+138 http 200 https://registry.npmjs.org/shufflejs
+139 verbose headers { server: 'nginx/1.10.3',
+139 verbose headers   'content-type': 'application/json',
+139 verbose headers   'last-modified': 'Tue, 31 Oct 2017 06:17:28 GMT',
+139 verbose headers   etag: 'W/"59f81578-72e9"',
+139 verbose headers   'content-encoding': 'gzip',
+139 verbose headers   'cache-control': 'max-age=300',
+139 verbose headers   'content-length': '4282',
+139 verbose headers   'accept-ranges': 'bytes',
+139 verbose headers   date: 'Wed, 29 Nov 2017 09:56:43 GMT',
+139 verbose headers   via: '1.1 varnish',
+139 verbose headers   age: '0',
+139 verbose headers   connection: 'keep-alive',
+139 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+139 verbose headers   'x-cache': 'MISS',
+139 verbose headers   'x-cache-hits': '0',
+139 verbose headers   'x-timer': 'S1511949403.947825,VS0,VE145',
+139 verbose headers   vary: 'Accept-Encoding, Accept' }
+140 silly get cb [ 200,
+140 silly get   { server: 'nginx/1.10.3',
+140 silly get     'content-type': 'application/json',
+140 silly get     'last-modified': 'Tue, 31 Oct 2017 06:17:28 GMT',
+140 silly get     etag: 'W/"59f81578-72e9"',
+140 silly get     'content-encoding': 'gzip',
+140 silly get     'cache-control': 'max-age=300',
+140 silly get     'content-length': '4282',
+140 silly get     'accept-ranges': 'bytes',
+140 silly get     date: 'Wed, 29 Nov 2017 09:56:43 GMT',
+140 silly get     via: '1.1 varnish',
+140 silly get     age: '0',
+140 silly get     connection: 'keep-alive',
+140 silly get     'x-served-by': 'cache-sin18022-SIN',
+140 silly get     'x-cache': 'MISS',
+140 silly get     'x-cache-hits': '0',
+140 silly get     'x-timer': 'S1511949403.947825,VS0,VE145',
+140 silly get     vary: 'Accept-Encoding, Accept' } ]
+141 verbose get saving shufflejs to C:\Users\mary grace\AppData\Roaming\npm-cache\registry.npmjs.org\shufflejs\.cache.json
+142 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+143 silly addNameRange number 2 { name: 'shufflejs', range: '>=5.0.3 <6.0.0', hasData: true }
+144 silly addNameRange versions [ 'shufflejs',
+144 silly addNameRange   [ '3.0.2',
+144 silly addNameRange     '3.0.3',
+144 silly addNameRange     '3.0.4',
+144 silly addNameRange     '3.1.0',
+144 silly addNameRange     '3.1.1',
+144 silly addNameRange     '4.0.0',
+144 silly addNameRange     '4.0.1',
+144 silly addNameRange     '4.0.2',
+144 silly addNameRange     '4.1.0',
+144 silly addNameRange     '4.1.1',
+144 silly addNameRange     '4.2.0',
+144 silly addNameRange     '5.0.0',
+144 silly addNameRange     '5.0.1',
+144 silly addNameRange     '5.0.2',
+144 silly addNameRange     '5.0.3' ] ]
+145 silly addNamed shufflejs@5.0.3
+146 verbose addNamed "5.0.3" is a plain semver version for shufflejs
+147 silly mapToRegistry name shufflejs
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry data Result {
+150 silly mapToRegistry   raw: 'shufflejs',
+150 silly mapToRegistry   scope: null,
+150 silly mapToRegistry   name: 'shufflejs',
+150 silly mapToRegistry   rawSpec: '',
+150 silly mapToRegistry   spec: 'latest',
+150 silly mapToRegistry   type: 'tag' }
+151 silly mapToRegistry uri https://registry.npmjs.org/shufflejs
+152 verbose addRemoteTarball https://registry.npmjs.org/shufflejs/-/shufflejs-5.0.3.tgz not in flight; adding
+153 verbose addRemoteTarball [ 'https://registry.npmjs.org/shufflejs/-/shufflejs-5.0.3.tgz',
+153 verbose addRemoteTarball   '04fc417cb79d833044683881e57c9779fc98c8ca' ]
+154 info retry fetch attempt 1 at 5:56:44 PM
+155 info attempt registry request try #1 at 5:56:44 PM
+156 http fetch GET https://registry.npmjs.org/shufflejs/-/shufflejs-5.0.3.tgz
+157 http fetch 200 https://registry.npmjs.org/shufflejs/-/shufflejs-5.0.3.tgz
+158 silly fetchAndShaCheck shasum 04fc417cb79d833044683881e57c9779fc98c8ca
+159 verbose addTmpTarball C:\Users\MARYGR~1\AppData\Local\Temp\npm-3496-3da3e742\registry.npmjs.org\shufflejs\-\shufflejs-5.0.3.tgz not in flight; adding
+160 verbose addTmpTarball already have metadata; skipping unpack for shufflejs@5.0.3
+161 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+162 silly cache afterAdd shufflejs@5.0.3
+163 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\shufflejs\5.0.3\package\package.json not in flight; writing
+164 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+165 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\shufflejs\5.0.3\package\package.json written
+166 silly install resolved [ { name: 'shufflejs',
+166 silly install resolved     version: '5.0.3',
+166 silly install resolved     description: 'Categorize, sort, and filter a responsive grid of items',
+166 silly install resolved     keywords:
+166 silly install resolved      [ 'gallery',
+166 silly install resolved        'shuffle',
+166 silly install resolved        'layout',
+166 silly install resolved        'masonry',
+166 silly install resolved        'filter',
+166 silly install resolved        'sort',
+166 silly install resolved        'responsive',
+166 silly install resolved        'grid',
+166 silly install resolved        'mobile',
+166 silly install resolved        'tiles' ],
+166 silly install resolved     main: 'dist/shuffle.js',
+166 silly install resolved     moduleSource: 'src/shuffle.js',
+166 silly install resolved     types: 'index.d.ts',
+166 silly install resolved     scripts:
+166 silly install resolved      { compile: 'gulp scripts',
+166 silly install resolved        css: 'gulp css',
+166 silly install resolved        gulp: 'gulp',
+166 silly install resolved        build: 'npm run gulp && npm run css',
+166 silly install resolved        serve: 'gulp jekyll',
+166 silly install resolved        test: 'eslint src && gulp test',
+166 silly install resolved        watch: 'gulp watch' },
+166 silly install resolved     repository: { type: 'git', url: 'git://github.com/Vestride/Shuffle.git' },
+166 silly install resolved     author: { name: 'Glen Cheney', email: 'cheney.glen@gmail.com' },
+166 silly install resolved     license: 'MIT',
+166 silly install resolved     bugs: { url: 'https://github.com/Vestride/Shuffle/issues' },
+166 silly install resolved     homepage: 'https://github.com/Vestride/Shuffle',
+166 silly install resolved     files: [ 'dist', 'src', 'index.d.ts' ],
+166 silly install resolved     dependencies:
+166 silly install resolved      { 'array-parallel': '^0.1.3',
+166 silly install resolved        'matches-selector': '^1.0.0',
+166 silly install resolved        throttleit: '^1.0.0',
+166 silly install resolved        'tiny-emitter': '^2.0.1' },
+166 silly install resolved     devDependencies:
+166 silly install resolved      { '@odopod/eslint-config': '^2.0.0',
+166 silly install resolved        autoprefixer: '^7.0.1',
+166 silly install resolved        'babel-core': '^6.26.0',
+166 silly install resolved        'babel-plugin-external-helpers': '^6.22.0',
+166 silly install resolved        'babel-preset-es2015': '^6.24.1',
+166 silly install resolved        chai: '^4.0.1',
+166 silly install resolved        'chai-dom': '^1.4.0',
+166 silly install resolved        'core-js': '^2.4.1',
+166 silly install resolved        cssnano: '^4.0.0-rc.1',
+166 silly install resolved        eslint: '^4.4.0',
+166 silly install resolved        gulp: 'github:gulpjs/gulp#4.0',
+166 silly install resolved        'gulp-mocha-phantomjs': '^0.12.0',
+166 silly install resolved        'gulp-postcss': '^7.0.0',
+166 silly install resolved        'gulp-sass': '^3.1.0',
+166 silly install resolved        'gulp-shell': '^0.6.1',
+166 silly install resolved        'gulp-util': '^3.0.7',
+166 silly install resolved        mocha: '^4.0.1',
+166 silly install resolved        rollup: '^0.48.0',
+166 silly install resolved        'rollup-plugin-babel': '^3.0.2',
+166 silly install resolved        'rollup-plugin-commonjs': '^8.0.2',
+166 silly install resolved        'rollup-plugin-node-resolve': '^3.0.0',
+166 silly install resolved        'rollup-plugin-uglify': '^2.0.0',
+166 silly install resolved        sinon: '^4.0.0' },
+166 silly install resolved     gitHead: '068c8acf9fe4ae6d5de6b2ffe16f6ededc84d14c',
+166 silly install resolved     _id: 'shufflejs@5.0.3',
+166 silly install resolved     _npmVersion: '5.5.1',
+166 silly install resolved     _nodeVersion: '8.4.0',
+166 silly install resolved     _npmUser: { name: 'vestride', email: 'cheney.glen@gmail.com' },
+166 silly install resolved     dist:
+166 silly install resolved      { integrity: 'sha512-ZgEvfzT4sy+kDGwZD6TnBRgPg1ttfHChFiNe3aS5NeL5LRRJitWwSZsWWqnNAJvZRyVnlHJAEyxlIgfyoyB5Yg==',
+166 silly install resolved        shasum: '04fc417cb79d833044683881e57c9779fc98c8ca',
+166 silly install resolved        tarball: 'https://registry.npmjs.org/shufflejs/-/shufflejs-5.0.3.tgz' },
+166 silly install resolved     maintainers: [ [Object] ],
+166 silly install resolved     _npmOperationalInternal:
+166 silly install resolved      { host: 's3://npm-registry-packages',
+166 silly install resolved        tmp: 'tmp/shufflejs-5.0.3.tgz_1509430648699_0.16902131866663694' },
+166 silly install resolved     directories: {},
+166 silly install resolved     _shasum: '04fc417cb79d833044683881e57c9779fc98c8ca',
+166 silly install resolved     _resolved: 'https://registry.npmjs.org/shufflejs/-/shufflejs-5.0.3.tgz',
+166 silly install resolved     _from: 'shufflejs@>=5.0.3 <6.0.0' } ]
+167 info install shufflejs@5.0.3 into c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+168 info installOne shufflejs@5.0.3
+169 verbose installOne of shufflejs to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight not in flight; installing
+170 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+171 verbose lock using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\shufflejs-6c5edbfba75c930e.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+172 silly install write writing shufflejs 5.0.3 to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+173 verbose unbuild node_modules\shufflejs
+174 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs is being purged from base c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+175 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+176 verbose tar unpack C:\Users\mary grace\AppData\Roaming\npm-cache\shufflejs\5.0.3\package.tgz
+177 verbose tar unpacking to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+178 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs is being purged
+179 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+180 silly gunzTarPerm modes [ '777', '666' ]
+181 silly gunzTarPerm extractEntry package.json
+182 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+183 silly gunzTarPerm extractEntry index.d.ts
+184 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 438 ]
+185 silly gunzTarPerm extractEntry LICENSE
+186 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+187 silly gunzTarPerm extractEntry README.md
+188 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+189 silly gunzTarPerm extractEntry dist/.DS_Store
+190 silly gunzTarPerm modified mode [ 'dist/.DS_Store', 420, 438 ]
+191 silly gunzTarPerm extractEntry dist/shuffle.js
+192 silly gunzTarPerm modified mode [ 'dist/shuffle.js', 420, 438 ]
+193 silly gunzTarPerm extractEntry dist/shuffle.js.map
+194 silly gunzTarPerm modified mode [ 'dist/shuffle.js.map', 420, 438 ]
+195 silly gunzTarPerm extractEntry dist/shuffle.min.js
+196 silly gunzTarPerm modified mode [ 'dist/shuffle.min.js', 420, 438 ]
+197 silly gunzTarPerm extractEntry dist/shuffle.min.js.map
+198 silly gunzTarPerm modified mode [ 'dist/shuffle.min.js.map', 420, 438 ]
+199 silly gunzTarPerm extractEntry src/.DS_Store
+200 silly gunzTarPerm modified mode [ 'src/.DS_Store', 420, 438 ]
+201 silly gunzTarPerm extractEntry src/array-max.js
+202 silly gunzTarPerm modified mode [ 'src/array-max.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry src/array-min.js
+204 silly gunzTarPerm modified mode [ 'src/array-min.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry src/classes.js
+206 silly gunzTarPerm modified mode [ 'src/classes.js', 420, 438 ]
+207 silly gunzTarPerm extractEntry src/computed-size.js
+208 silly gunzTarPerm modified mode [ 'src/computed-size.js', 420, 438 ]
+209 silly gunzTarPerm extractEntry src/get-number-style.js
+210 silly gunzTarPerm modified mode [ 'src/get-number-style.js', 420, 438 ]
+211 silly gunzTarPerm extractEntry src/get-number.js
+212 silly gunzTarPerm modified mode [ 'src/get-number.js', 420, 438 ]
+213 silly gunzTarPerm extractEntry src/hyphenate.js
+214 silly gunzTarPerm modified mode [ 'src/hyphenate.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry src/layout.js
+216 silly gunzTarPerm modified mode [ 'src/layout.js', 420, 438 ]
+217 silly gunzTarPerm extractEntry src/on-transition-end.js
+218 silly gunzTarPerm modified mode [ 'src/on-transition-end.js', 420, 438 ]
+219 silly gunzTarPerm extractEntry src/point.js
+220 silly gunzTarPerm modified mode [ 'src/point.js', 420, 438 ]
+221 silly gunzTarPerm extractEntry src/rect.js
+222 silly gunzTarPerm modified mode [ 'src/rect.js', 420, 438 ]
+223 silly gunzTarPerm extractEntry src/shuffle-item.js
+224 silly gunzTarPerm modified mode [ 'src/shuffle-item.js', 420, 438 ]
+225 silly gunzTarPerm extractEntry src/shuffle.js
+226 silly gunzTarPerm modified mode [ 'src/shuffle.js', 420, 438 ]
+227 silly gunzTarPerm extractEntry src/sorter.js
+228 silly gunzTarPerm modified mode [ 'src/sorter.js', 420, 438 ]
+229 verbose write writing to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\package.json
+230 info preinstall shufflejs@5.0.3
+231 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\package.json
+232 silly prepareForInstallMany adding array-parallel@^0.1.3 from shufflejs dependencies
+233 silly prepareForInstallMany adding matches-selector@^1.0.0 from shufflejs dependencies
+234 silly prepareForInstallMany adding throttleit@^1.0.0 from shufflejs dependencies
+235 silly prepareForInstallMany adding tiny-emitter@^2.0.1 from shufflejs dependencies
+236 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\package.json
+237 silly cache add args [ 'array-parallel@^0.1.3', null ]
+238 verbose cache add spec array-parallel@^0.1.3
+239 silly cache add args [ 'matches-selector@^1.0.0', null ]
+240 verbose cache add spec matches-selector@^1.0.0
+241 silly cache add parsed spec Result {
+241 silly cache add   raw: 'array-parallel@^0.1.3',
+241 silly cache add   scope: null,
+241 silly cache add   name: 'array-parallel',
+241 silly cache add   rawSpec: '^0.1.3',
+241 silly cache add   spec: '>=0.1.3 <0.2.0',
+241 silly cache add   type: 'range' }
+242 silly addNamed array-parallel@>=0.1.3 <0.2.0
+243 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for array-parallel
+244 silly addNameRange { name: 'array-parallel',
+244 silly addNameRange   range: '>=0.1.3 <0.2.0',
+244 silly addNameRange   hasData: false }
+245 silly mapToRegistry name array-parallel
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry data Result {
+248 silly mapToRegistry   raw: 'array-parallel',
+248 silly mapToRegistry   scope: null,
+248 silly mapToRegistry   name: 'array-parallel',
+248 silly mapToRegistry   rawSpec: '',
+248 silly mapToRegistry   spec: 'latest',
+248 silly mapToRegistry   type: 'tag' }
+249 silly mapToRegistry uri https://registry.npmjs.org/array-parallel
+250 verbose addNameRange registry:https://registry.npmjs.org/array-parallel not in flight; fetching
+251 silly cache add parsed spec Result {
+251 silly cache add   raw: 'matches-selector@^1.0.0',
+251 silly cache add   scope: null,
+251 silly cache add   name: 'matches-selector',
+251 silly cache add   rawSpec: '^1.0.0',
+251 silly cache add   spec: '>=1.0.0 <2.0.0',
+251 silly cache add   type: 'range' }
+252 silly addNamed matches-selector@>=1.0.0 <2.0.0
+253 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for matches-selector
+254 silly addNameRange { name: 'matches-selector',
+254 silly addNameRange   range: '>=1.0.0 <2.0.0',
+254 silly addNameRange   hasData: false }
+255 silly mapToRegistry name matches-selector
+256 silly mapToRegistry using default registry
+257 silly mapToRegistry registry https://registry.npmjs.org/
+258 silly mapToRegistry data Result {
+258 silly mapToRegistry   raw: 'matches-selector',
+258 silly mapToRegistry   scope: null,
+258 silly mapToRegistry   name: 'matches-selector',
+258 silly mapToRegistry   rawSpec: '',
+258 silly mapToRegistry   spec: 'latest',
+258 silly mapToRegistry   type: 'tag' }
+259 silly mapToRegistry uri https://registry.npmjs.org/matches-selector
+260 verbose addNameRange registry:https://registry.npmjs.org/matches-selector not in flight; fetching
+261 silly cache add args [ 'throttleit@^1.0.0', null ]
+262 verbose cache add spec throttleit@^1.0.0
+263 silly cache add parsed spec Result {
+263 silly cache add   raw: 'throttleit@^1.0.0',
+263 silly cache add   scope: null,
+263 silly cache add   name: 'throttleit',
+263 silly cache add   rawSpec: '^1.0.0',
+263 silly cache add   spec: '>=1.0.0 <2.0.0',
+263 silly cache add   type: 'range' }
+264 silly addNamed throttleit@>=1.0.0 <2.0.0
+265 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for throttleit
+266 silly addNameRange { name: 'throttleit', range: '>=1.0.0 <2.0.0', hasData: false }
+267 silly mapToRegistry name throttleit
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npmjs.org/
+270 silly mapToRegistry data Result {
+270 silly mapToRegistry   raw: 'throttleit',
+270 silly mapToRegistry   scope: null,
+270 silly mapToRegistry   name: 'throttleit',
+270 silly mapToRegistry   rawSpec: '',
+270 silly mapToRegistry   spec: 'latest',
+270 silly mapToRegistry   type: 'tag' }
+271 silly mapToRegistry uri https://registry.npmjs.org/throttleit
+272 verbose addNameRange registry:https://registry.npmjs.org/throttleit not in flight; fetching
+273 silly cache add args [ 'tiny-emitter@^2.0.1', null ]
+274 verbose cache add spec tiny-emitter@^2.0.1
+275 silly cache add parsed spec Result {
+275 silly cache add   raw: 'tiny-emitter@^2.0.1',
+275 silly cache add   scope: null,
+275 silly cache add   name: 'tiny-emitter',
+275 silly cache add   rawSpec: '^2.0.1',
+275 silly cache add   spec: '>=2.0.1 <3.0.0',
+275 silly cache add   type: 'range' }
+276 silly addNamed tiny-emitter@>=2.0.1 <3.0.0
+277 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for tiny-emitter
+278 silly addNameRange { name: 'tiny-emitter', range: '>=2.0.1 <3.0.0', hasData: false }
+279 silly mapToRegistry name tiny-emitter
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry data Result {
+282 silly mapToRegistry   raw: 'tiny-emitter',
+282 silly mapToRegistry   scope: null,
+282 silly mapToRegistry   name: 'tiny-emitter',
+282 silly mapToRegistry   rawSpec: '',
+282 silly mapToRegistry   spec: 'latest',
+282 silly mapToRegistry   type: 'tag' }
+283 silly mapToRegistry uri https://registry.npmjs.org/tiny-emitter
+284 verbose addNameRange registry:https://registry.npmjs.org/tiny-emitter not in flight; fetching
+285 verbose request uri https://registry.npmjs.org/array-parallel
+286 verbose request no auth needed
+287 info attempt registry request try #1 at 5:56:45 PM
+288 http request GET https://registry.npmjs.org/array-parallel
+289 verbose request uri https://registry.npmjs.org/matches-selector
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 5:56:45 PM
+292 http request GET https://registry.npmjs.org/matches-selector
+293 verbose request uri https://registry.npmjs.org/tiny-emitter
+294 verbose request no auth needed
+295 info attempt registry request try #1 at 5:56:45 PM
+296 http request GET https://registry.npmjs.org/tiny-emitter
+297 verbose request uri https://registry.npmjs.org/throttleit
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 5:56:45 PM
+300 verbose etag W/"59732d2b-1794"
+301 verbose lastModified Sat, 22 Jul 2017 10:47:07 GMT
+302 http request GET https://registry.npmjs.org/throttleit
+303 http 200 https://registry.npmjs.org/array-parallel
+304 verbose headers { server: 'nginx/1.10.3',
+304 verbose headers   'content-type': 'application/json',
+304 verbose headers   'last-modified': 'Mon, 22 May 2017 14:28:33 GMT',
+304 verbose headers   etag: 'W/"5922f591-1ce5"',
+304 verbose headers   'content-encoding': 'gzip',
+304 verbose headers   'cache-control': 'max-age=300',
+304 verbose headers   'content-length': '2297',
+304 verbose headers   'accept-ranges': 'bytes',
+304 verbose headers   date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+304 verbose headers   via: '1.1 varnish',
+304 verbose headers   age: '28',
+304 verbose headers   connection: 'keep-alive',
+304 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+304 verbose headers   'x-cache': 'HIT',
+304 verbose headers   'x-cache-hits': '1',
+304 verbose headers   'x-timer': 'S1511949404.143778,VS0,VE0',
+304 verbose headers   vary: 'Accept-Encoding, Accept' }
+305 silly get cb [ 200,
+305 silly get   { server: 'nginx/1.10.3',
+305 silly get     'content-type': 'application/json',
+305 silly get     'last-modified': 'Mon, 22 May 2017 14:28:33 GMT',
+305 silly get     etag: 'W/"5922f591-1ce5"',
+305 silly get     'content-encoding': 'gzip',
+305 silly get     'cache-control': 'max-age=300',
+305 silly get     'content-length': '2297',
+305 silly get     'accept-ranges': 'bytes',
+305 silly get     date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+305 silly get     via: '1.1 varnish',
+305 silly get     age: '28',
+305 silly get     connection: 'keep-alive',
+305 silly get     'x-served-by': 'cache-sin18022-SIN',
+305 silly get     'x-cache': 'HIT',
+305 silly get     'x-cache-hits': '1',
+305 silly get     'x-timer': 'S1511949404.143778,VS0,VE0',
+305 silly get     vary: 'Accept-Encoding, Accept' } ]
+306 verbose get saving array-parallel to C:\Users\mary grace\AppData\Roaming\npm-cache\registry.npmjs.org\array-parallel\.cache.json
+307 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+308 silly addNameRange number 2 { name: 'array-parallel',
+308 silly addNameRange   range: '>=0.1.3 <0.2.0',
+308 silly addNameRange   hasData: true }
+309 silly addNameRange versions [ 'array-parallel',
+309 silly addNameRange   [ '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+310 silly addNamed array-parallel@0.1.3
+311 verbose addNamed "0.1.3" is a plain semver version for array-parallel
+312 silly mapToRegistry name array-parallel
+313 silly mapToRegistry using default registry
+314 silly mapToRegistry registry https://registry.npmjs.org/
+315 silly mapToRegistry data Result {
+315 silly mapToRegistry   raw: 'array-parallel',
+315 silly mapToRegistry   scope: null,
+315 silly mapToRegistry   name: 'array-parallel',
+315 silly mapToRegistry   rawSpec: '',
+315 silly mapToRegistry   spec: 'latest',
+315 silly mapToRegistry   type: 'tag' }
+316 silly mapToRegistry uri https://registry.npmjs.org/array-parallel
+317 verbose addRemoteTarball https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz not in flight; adding
+318 verbose addRemoteTarball [ 'https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz',
+318 verbose addRemoteTarball   '8f785308926ed5aa478c47e64d1b334b6c0c947d' ]
+319 info retry fetch attempt 1 at 5:56:45 PM
+320 info attempt registry request try #1 at 5:56:45 PM
+321 http fetch GET https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz
+322 http fetch 200 https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz
+323 silly fetchAndShaCheck shasum 8f785308926ed5aa478c47e64d1b334b6c0c947d
+324 verbose addTmpTarball C:\Users\MARYGR~1\AppData\Local\Temp\npm-3496-3da3e742\registry.npmjs.org\array-parallel\-\array-parallel-0.1.3.tgz not in flight; adding
+325 verbose addTmpTarball already have metadata; skipping unpack for array-parallel@0.1.3
+326 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+327 silly cache afterAdd array-parallel@0.1.3
+328 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\array-parallel\0.1.3\package\package.json not in flight; writing
+329 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+330 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\array-parallel\0.1.3\package\package.json written
+331 http 200 https://registry.npmjs.org/tiny-emitter
+332 verbose headers { server: 'nginx/1.10.3',
+332 verbose headers   'content-type': 'application/json',
+332 verbose headers   'last-modified': 'Wed, 01 Nov 2017 03:01:00 GMT',
+332 verbose headers   etag: 'W/"59f938ec-850d"',
+332 verbose headers   'content-encoding': 'gzip',
+332 verbose headers   'cache-control': 'max-age=300',
+332 verbose headers   'content-length': '3788',
+332 verbose headers   'accept-ranges': 'bytes',
+332 verbose headers   date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+332 verbose headers   via: '1.1 varnish',
+332 verbose headers   age: '85',
+332 verbose headers   connection: 'keep-alive',
+332 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+332 verbose headers   'x-cache': 'HIT',
+332 verbose headers   'x-cache-hits': '1',
+332 verbose headers   'x-timer': 'S1511949404.322548,VS0,VE0',
+332 verbose headers   vary: 'Accept-Encoding, Accept' }
+333 silly get cb [ 200,
+333 silly get   { server: 'nginx/1.10.3',
+333 silly get     'content-type': 'application/json',
+333 silly get     'last-modified': 'Wed, 01 Nov 2017 03:01:00 GMT',
+333 silly get     etag: 'W/"59f938ec-850d"',
+333 silly get     'content-encoding': 'gzip',
+333 silly get     'cache-control': 'max-age=300',
+333 silly get     'content-length': '3788',
+333 silly get     'accept-ranges': 'bytes',
+333 silly get     date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+333 silly get     via: '1.1 varnish',
+333 silly get     age: '85',
+333 silly get     connection: 'keep-alive',
+333 silly get     'x-served-by': 'cache-sin18025-SIN',
+333 silly get     'x-cache': 'HIT',
+333 silly get     'x-cache-hits': '1',
+333 silly get     'x-timer': 'S1511949404.322548,VS0,VE0',
+333 silly get     vary: 'Accept-Encoding, Accept' } ]
+334 verbose get saving tiny-emitter to C:\Users\mary grace\AppData\Roaming\npm-cache\registry.npmjs.org\tiny-emitter\.cache.json
+335 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+336 http 304 https://registry.npmjs.org/throttleit
+337 verbose headers { date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+337 verbose headers   via: '1.1 varnish',
+337 verbose headers   'cache-control': 'max-age=300',
+337 verbose headers   etag: 'W/"59732d2b-1794"',
+337 verbose headers   age: '86',
+337 verbose headers   connection: 'keep-alive',
+337 verbose headers   'x-served-by': 'cache-sin18027-SIN',
+337 verbose headers   'x-cache': 'HIT',
+337 verbose headers   'x-cache-hits': '1',
+337 verbose headers   'x-timer': 'S1511949404.333703,VS0,VE1',
+337 verbose headers   vary: 'Accept-Encoding, Accept' }
+338 silly get cb [ 304,
+338 silly get   { date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+338 silly get     via: '1.1 varnish',
+338 silly get     'cache-control': 'max-age=300',
+338 silly get     etag: 'W/"59732d2b-1794"',
+338 silly get     age: '86',
+338 silly get     connection: 'keep-alive',
+338 silly get     'x-served-by': 'cache-sin18027-SIN',
+338 silly get     'x-cache': 'HIT',
+338 silly get     'x-cache-hits': '1',
+338 silly get     'x-timer': 'S1511949404.333703,VS0,VE1',
+338 silly get     vary: 'Accept-Encoding, Accept' } ]
+339 verbose etag https://registry.npmjs.org/throttleit from cache
+340 verbose get saving throttleit to C:\Users\mary grace\AppData\Roaming\npm-cache\registry.npmjs.org\throttleit\.cache.json
+341 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+342 silly addNameRange number 2 { name: 'throttleit', range: '>=1.0.0 <2.0.0', hasData: true }
+343 silly addNameRange versions [ 'throttleit', [ '0.0.1', '0.0.2', '1.0.0' ] ]
+344 silly addNamed throttleit@1.0.0
+345 verbose addNamed "1.0.0" is a plain semver version for throttleit
+346 silly addNameRange number 2 { name: 'tiny-emitter', range: '>=2.0.1 <3.0.0', hasData: true }
+347 silly addNameRange versions [ 'tiny-emitter',
+347 silly addNameRange   [ '0.1.0',
+347 silly addNameRange     '0.1.1',
+347 silly addNameRange     '0.1.2',
+347 silly addNameRange     '0.1.3',
+347 silly addNameRange     '0.1.4',
+347 silly addNameRange     '0.1.5',
+347 silly addNameRange     '0.1.6',
+347 silly addNameRange     '0.1.7',
+347 silly addNameRange     '0.1.8',
+347 silly addNameRange     '0.1.9',
+347 silly addNameRange     '0.1.10',
+347 silly addNameRange     '0.1.11',
+347 silly addNameRange     '0.1.12',
+347 silly addNameRange     '1.0.0',
+347 silly addNameRange     '1.0.1',
+347 silly addNameRange     '1.0.2',
+347 silly addNameRange     '1.1.0',
+347 silly addNameRange     '1.2.0',
+347 silly addNameRange     '2.0.0',
+347 silly addNameRange     '2.0.1',
+347 silly addNameRange     '2.0.2' ] ]
+348 silly addNamed tiny-emitter@2.0.2
+349 verbose addNamed "2.0.2" is a plain semver version for tiny-emitter
+350 silly mapToRegistry name tiny-emitter
+351 silly mapToRegistry using default registry
+352 silly mapToRegistry registry https://registry.npmjs.org/
+353 silly mapToRegistry data Result {
+353 silly mapToRegistry   raw: 'tiny-emitter',
+353 silly mapToRegistry   scope: null,
+353 silly mapToRegistry   name: 'tiny-emitter',
+353 silly mapToRegistry   rawSpec: '',
+353 silly mapToRegistry   spec: 'latest',
+353 silly mapToRegistry   type: 'tag' }
+354 silly mapToRegistry uri https://registry.npmjs.org/tiny-emitter
+355 verbose addRemoteTarball https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.0.2.tgz not in flight; adding
+356 verbose addRemoteTarball [ 'https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.0.2.tgz',
+356 verbose addRemoteTarball   '82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c' ]
+357 info retry fetch attempt 1 at 5:56:45 PM
+358 info attempt registry request try #1 at 5:56:45 PM
+359 http fetch GET https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.0.2.tgz
+360 silly cache afterAdd throttleit@1.0.0
+361 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\throttleit\1.0.0\package\package.json not in flight; writing
+362 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+363 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\throttleit\1.0.0\package\package.json written
+364 http fetch 200 https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.0.2.tgz
+365 silly fetchAndShaCheck shasum 82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c
+366 verbose addTmpTarball C:\Users\MARYGR~1\AppData\Local\Temp\npm-3496-3da3e742\registry.npmjs.org\tiny-emitter\-\tiny-emitter-2.0.2.tgz not in flight; adding
+367 verbose addTmpTarball already have metadata; skipping unpack for tiny-emitter@2.0.2
+368 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+369 silly cache afterAdd tiny-emitter@2.0.2
+370 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\tiny-emitter\2.0.2\package\package.json not in flight; writing
+371 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+372 http 200 https://registry.npmjs.org/matches-selector
+373 verbose headers { server: 'nginx/1.10.3',
+373 verbose headers   'content-type': 'application/json',
+373 verbose headers   'last-modified': 'Fri, 23 Jun 2017 12:23:53 GMT',
+373 verbose headers   etag: 'W/"594d0859-1f83"',
+373 verbose headers   'content-encoding': 'gzip',
+373 verbose headers   'cache-control': 'max-age=300',
+373 verbose headers   'content-length': '1895',
+373 verbose headers   'accept-ranges': 'bytes',
+373 verbose headers   date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+373 verbose headers   via: '1.1 varnish',
+373 verbose headers   age: '0',
+373 verbose headers   connection: 'keep-alive',
+373 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+373 verbose headers   'x-cache': 'MISS',
+373 verbose headers   'x-cache-hits': '0',
+373 verbose headers   'x-timer': 'S1511949404.305367,VS0,VE143',
+373 verbose headers   vary: 'Accept-Encoding, Accept' }
+374 silly get cb [ 200,
+374 silly get   { server: 'nginx/1.10.3',
+374 silly get     'content-type': 'application/json',
+374 silly get     'last-modified': 'Fri, 23 Jun 2017 12:23:53 GMT',
+374 silly get     etag: 'W/"594d0859-1f83"',
+374 silly get     'content-encoding': 'gzip',
+374 silly get     'cache-control': 'max-age=300',
+374 silly get     'content-length': '1895',
+374 silly get     'accept-ranges': 'bytes',
+374 silly get     date: 'Wed, 29 Nov 2017 09:56:44 GMT',
+374 silly get     via: '1.1 varnish',
+374 silly get     age: '0',
+374 silly get     connection: 'keep-alive',
+374 silly get     'x-served-by': 'cache-sin18025-SIN',
+374 silly get     'x-cache': 'MISS',
+374 silly get     'x-cache-hits': '0',
+374 silly get     'x-timer': 'S1511949404.305367,VS0,VE143',
+374 silly get     vary: 'Accept-Encoding, Accept' } ]
+375 verbose get saving matches-selector to C:\Users\mary grace\AppData\Roaming\npm-cache\registry.npmjs.org\matches-selector\.cache.json
+376 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+377 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\tiny-emitter\2.0.2\package\package.json written
+378 silly addNameRange number 2 { name: 'matches-selector',
+378 silly addNameRange   range: '>=1.0.0 <2.0.0',
+378 silly addNameRange   hasData: true }
+379 silly addNameRange versions [ 'matches-selector',
+379 silly addNameRange   [ '0.0.1', '0.0.2', '1.0.0', '1.1.0', '1.2.0' ] ]
+380 silly addNamed matches-selector@1.2.0
+381 verbose addNamed "1.2.0" is a plain semver version for matches-selector
+382 silly mapToRegistry name matches-selector
+383 silly mapToRegistry using default registry
+384 silly mapToRegistry registry https://registry.npmjs.org/
+385 silly mapToRegistry data Result {
+385 silly mapToRegistry   raw: 'matches-selector',
+385 silly mapToRegistry   scope: null,
+385 silly mapToRegistry   name: 'matches-selector',
+385 silly mapToRegistry   rawSpec: '',
+385 silly mapToRegistry   spec: 'latest',
+385 silly mapToRegistry   type: 'tag' }
+386 silly mapToRegistry uri https://registry.npmjs.org/matches-selector
+387 verbose addRemoteTarball https://registry.npmjs.org/matches-selector/-/matches-selector-1.2.0.tgz not in flight; adding
+388 verbose addRemoteTarball [ 'https://registry.npmjs.org/matches-selector/-/matches-selector-1.2.0.tgz',
+388 verbose addRemoteTarball   'd1814e7e8f43e69d22ac33c9af727dc884ecf12a' ]
+389 info retry fetch attempt 1 at 5:56:45 PM
+390 info attempt registry request try #1 at 5:56:45 PM
+391 http fetch GET https://registry.npmjs.org/matches-selector/-/matches-selector-1.2.0.tgz
+392 http fetch 200 https://registry.npmjs.org/matches-selector/-/matches-selector-1.2.0.tgz
+393 silly fetchAndShaCheck shasum d1814e7e8f43e69d22ac33c9af727dc884ecf12a
+394 verbose addTmpTarball C:\Users\MARYGR~1\AppData\Local\Temp\npm-3496-3da3e742\registry.npmjs.org\matches-selector\-\matches-selector-1.2.0.tgz not in flight; adding
+395 verbose addTmpTarball already have metadata; skipping unpack for matches-selector@1.2.0
+396 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+397 silly cache afterAdd matches-selector@1.2.0
+398 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\matches-selector\1.2.0\package\package.json not in flight; writing
+399 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+400 verbose afterAdd C:\Users\mary grace\AppData\Roaming\npm-cache\matches-selector\1.2.0\package\package.json written
+401 silly install resolved [ { name: 'array-parallel',
+401 silly install resolved     description: 'Call an array of asynchronous functions in parallel',
+401 silly install resolved     version: '0.1.3',
+401 silly install resolved     scripts: { test: 'node test' },
+401 silly install resolved     author:
+401 silly install resolved      { name: 'Jonathan Ong',
+401 silly install resolved        email: 'me@jongleberry.com',
+401 silly install resolved        url: 'http://jongleberry.com' },
+401 silly install resolved     repository:
+401 silly install resolved      { type: 'git',
+401 silly install resolved        url: 'https://github.com/component/array-parallel.git' },
+401 silly install resolved     bugs:
+401 silly install resolved      { url: 'https://github.com/component/array-parallel/issues',
+401 silly install resolved        email: 'me@jongleberry.com' },
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     homepage: 'https://github.com/component/array-parallel',
+401 silly install resolved     _id: 'array-parallel@0.1.3',
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: '8f785308926ed5aa478c47e64d1b334b6c0c947d',
+401 silly install resolved        tarball: 'https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz' },
+401 silly install resolved     _from: 'array-parallel@>=0.1.3 <0.2.0',
+401 silly install resolved     _npmVersion: '1.3.17',
+401 silly install resolved     _npmUser: { name: 'jongleberry', email: 'jonathanrichardong@gmail.com' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     directories: {},
+401 silly install resolved     _shasum: '8f785308926ed5aa478c47e64d1b334b6c0c947d',
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/array-parallel/-/array-parallel-0.1.3.tgz' },
+401 silly install resolved   { name: 'throttleit',
+401 silly install resolved     description: 'Throttle a function',
+401 silly install resolved     version: '1.0.0',
+401 silly install resolved     keywords: [],
+401 silly install resolved     repository: { type: 'git', url: 'git://github.com/component/throttle.git' },
+401 silly install resolved     devDependencies: { mocha: '^1.18.0' },
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     component: { scripts: [Object] },
+401 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+401 silly install resolved     gitHead: '19f9fd95782d372f2d0be6d5c60d60f8176d7ef8',
+401 silly install resolved     bugs: { url: 'https://github.com/component/throttle/issues' },
+401 silly install resolved     homepage: 'https://github.com/component/throttle',
+401 silly install resolved     _id: 'throttleit@1.0.0',
+401 silly install resolved     _shasum: '9e785836daf46743145a5984b6268d828528ac6c',
+401 silly install resolved     _from: 'throttleit@>=1.0.0 <2.0.0',
+401 silly install resolved     _npmVersion: '2.1.18',
+401 silly install resolved     _nodeVersion: '1.0.2',
+401 silly install resolved     _npmUser: { name: 'dominicbarnes', email: 'dominic@dbarnes.info' },
+401 silly install resolved     maintainers:
+401 silly install resolved      [ [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object],
+401 silly install resolved        [Object] ],
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: '9e785836daf46743145a5984b6268d828528ac6c',
+401 silly install resolved        tarball: 'https://registry.npmjs.org/throttleit/-/throttleit-1.0.0.tgz' },
+401 silly install resolved     directories: {},
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/throttleit/-/throttleit-1.0.0.tgz',
+401 silly install resolved     readme: 'ERROR: No README data found!' },
+401 silly install resolved   { name: 'tiny-emitter',
+401 silly install resolved     version: '2.0.2',
+401 silly install resolved     description: 'A tiny (less than 1k) event emitter library',
+401 silly install resolved     main: 'index.js',
+401 silly install resolved     scripts:
+401 silly install resolved      { 'test-node': 'tape test/index.js | tap-format-spec',
+401 silly install resolved        test: 'testling | tap-format-spec',
+401 silly install resolved        bundle: 'browserify index.js > dist/tinyemitter.js -s TinyEmitter && echo \'Bundled\'',
+401 silly install resolved        minify: 'uglifyjs dist/tinyemitter.js -o dist/tinyemitter.min.js -m && echo \'Minified\'',
+401 silly install resolved        build: 'npm test && npm run bundle && npm run minify',
+401 silly install resolved        size: 'uglifyjs index.js -o minified.js -m && ls -l && rm minified.js' },
+401 silly install resolved     repository:
+401 silly install resolved      { type: 'git',
+401 silly install resolved        url: 'git+https://github.com/scottcorgan/tiny-emitter.git' },
+401 silly install resolved     keywords: [ 'event', 'emitter', 'pubsub', 'tiny', 'events', 'bind' ],
+401 silly install resolved     author: { name: 'Scott Corgan' },
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     bugs: { url: 'https://github.com/scottcorgan/tiny-emitter/issues' },
+401 silly install resolved     devDependencies:
+401 silly install resolved      { '@tap-format/spec': '0.2.0',
+401 silly install resolved        browserify: '11.2.0',
+401 silly install resolved        tape: '4.2.1',
+401 silly install resolved        testling: '1.7.1',
+401 silly install resolved        'uglify-js': '2.5.0' },
+401 silly install resolved     testling: { files: [Object], browsers: [Object] },
+401 silly install resolved     gitHead: '479797e36cb983489cc95c8e175d776509151550',
+401 silly install resolved     homepage: 'https://github.com/scottcorgan/tiny-emitter#readme',
+401 silly install resolved     _id: 'tiny-emitter@2.0.2',
+401 silly install resolved     _npmVersion: '5.3.0',
+401 silly install resolved     _nodeVersion: '8.3.0',
+401 silly install resolved     _npmUser: { name: 'scottcorgan', email: 'scottcorgan@gmail.com' },
+401 silly install resolved     dist:
+401 silly install resolved      { integrity: 'sha512-2NM0auVBGft5tee/OxP4PI3d8WItkDM+fPnaRAVo6xTDI2knbz9eC5ArWGqtGlYqiH3RU5yMpdyTTO7MguC4ow==',
+401 silly install resolved        shasum: '82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c',
+401 silly install resolved        tarball: 'https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.0.2.tgz' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     _npmOperationalInternal:
+401 silly install resolved      { host: 's3://npm-registry-packages',
+401 silly install resolved        tmp: 'tmp/tiny-emitter-2.0.2.tgz_1502970218521_0.8436653357930481' },
+401 silly install resolved     directories: {},
+401 silly install resolved     _shasum: '82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c',
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.0.2.tgz',
+401 silly install resolved     _from: 'tiny-emitter@>=2.0.1 <3.0.0' },
+401 silly install resolved   { name: 'matches-selector',
+401 silly install resolved     version: '1.2.0',
+401 silly install resolved     description: 'Check if a DOM element matches a given selector, with decent browser support and unit tests.',
+401 silly install resolved     keywords: [ 'browserify', 'CSS', 'selector' ],
+401 silly install resolved     repository:
+401 silly install resolved      { type: 'git',
+401 silly install resolved        url: 'git+https://github.com/ForbesLindesay/matches-selector.git' },
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     scripts: { test: 'run-browser test/index.js' },
+401 silly install resolved     devDependencies: { domify: '~1.1.1', tape: '~2.3.2', 'run-browser': '~2.0.2' },
+401 silly install resolved     testling: { files: 'test/index.js', browsers: [Object] },
+401 silly install resolved     gitHead: '7edea5271b9f0ff0361ac61f34ae6375612f6b75',
+401 silly install resolved     bugs: { url: 'https://github.com/ForbesLindesay/matches-selector/issues' },
+401 silly install resolved     homepage: 'https://github.com/ForbesLindesay/matches-selector#readme',
+401 silly install resolved     _id: 'matches-selector@1.2.0',
+401 silly install resolved     _npmVersion: '5.0.3',
+401 silly install resolved     _nodeVersion: '8.0.0',
+401 silly install resolved     _npmUser: { name: 'forbeslindesay', email: 'forbes@lindesay.co.uk' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     dist:
+401 silly install resolved      { integrity: 'sha512-c4vLwYWyl+Ji+U43eU/G5FwxWd4ZH0ePUsFs5y0uwD9HUEFBXUQ1zUUan+78IpRD+y4pUfG0nAzNM292K7ItvA==',
+401 silly install resolved        shasum: 'd1814e7e8f43e69d22ac33c9af727dc884ecf12a',
+401 silly install resolved        tarball: 'https://registry.npmjs.org/matches-selector/-/matches-selector-1.2.0.tgz' },
+401 silly install resolved     _npmOperationalInternal:
+401 silly install resolved      { host: 's3://npm-registry-packages',
+401 silly install resolved        tmp: 'tmp/matches-selector-1.2.0.tgz_1498220632082_0.5750544692855328' },
+401 silly install resolved     directories: {},
+401 silly install resolved     _shasum: 'd1814e7e8f43e69d22ac33c9af727dc884ecf12a',
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/matches-selector/-/matches-selector-1.2.0.tgz',
+401 silly install resolved     _from: 'matches-selector@>=1.0.0 <2.0.0' } ]
+402 info install array-parallel@0.1.3 into c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+403 info install throttleit@1.0.0 into c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+404 info install tiny-emitter@2.0.2 into c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+405 info install matches-selector@1.2.0 into c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+406 info installOne array-parallel@0.1.3
+407 verbose installOne of array-parallel to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs not in flight; installing
+408 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+409 info installOne throttleit@1.0.0
+410 verbose installOne of throttleit to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs not in flight; installing
+411 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+412 info installOne tiny-emitter@2.0.2
+413 verbose installOne of tiny-emitter to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs not in flight; installing
+414 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+415 info installOne matches-selector@1.2.0
+416 verbose installOne of matches-selector to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs not in flight; installing
+417 verbose correctMkdir C:\Users\mary grace\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+418 verbose lock using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\array-parallel-15b10295b222484c.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+419 verbose lock using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\throttleit-bb2f8cb879877390.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+420 silly install write writing array-parallel 0.1.3 to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+421 silly install write writing throttleit 1.0.0 to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+422 verbose lock using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\tiny-emitter-c75b3225398c5890.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+423 verbose lock using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\matches-selector-79a2269d92404fba.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+424 silly install write writing tiny-emitter 2.0.2 to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+425 silly install write writing matches-selector 1.2.0 to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+426 verbose unbuild node_modules\shufflejs\node_modules\array-parallel
+427 verbose unbuild node_modules\shufflejs\node_modules\throttleit
+428 verbose unbuild node_modules\shufflejs\node_modules\tiny-emitter
+429 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel is being purged from base c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+430 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+431 verbose unbuild node_modules\shufflejs\node_modules\matches-selector
+432 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit is being purged from base c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+433 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+434 verbose tar unpack C:\Users\mary grace\AppData\Roaming\npm-cache\array-parallel\0.1.3\package.tgz
+435 verbose tar unpacking to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+436 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel is being purged
+437 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+438 verbose tar unpack C:\Users\mary grace\AppData\Roaming\npm-cache\throttleit\1.0.0\package.tgz
+439 verbose tar unpacking to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+440 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit is being purged
+441 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+442 silly gunzTarPerm modes [ '777', '666' ]
+443 silly gunzTarPerm modes [ '777', '666' ]
+444 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter is being purged from base c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+445 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+446 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector is being purged from base c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+447 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+448 verbose tar unpack C:\Users\mary grace\AppData\Roaming\npm-cache\tiny-emitter\2.0.2\package.tgz
+449 verbose tar unpacking to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+450 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter is being purged
+451 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+452 verbose tar unpack C:\Users\mary grace\AppData\Roaming\npm-cache\matches-selector\1.2.0\package.tgz
+453 verbose tar unpacking to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+454 silly gentlyRm c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector is being purged
+455 verbose gentlyRm don't care about contents; nuking c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+456 silly gunzTarPerm modes [ '777', '666' ]
+457 silly gunzTarPerm modes [ '777', '666' ]
+458 silly gunzTarPerm extractEntry package.json
+459 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+460 silly gunzTarPerm extractEntry .npmignore
+461 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+462 silly gunzTarPerm extractEntry README.md
+463 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+464 silly gunzTarPerm extractEntry package.json
+465 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+466 silly gunzTarPerm extractEntry package.json
+467 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+468 silly gunzTarPerm extractEntry package.json
+469 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+470 silly gunzTarPerm extractEntry .npmignore
+471 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+472 silly gunzTarPerm extractEntry LICENSE
+473 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+474 silly gunzTarPerm extractEntry .npmignore
+475 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+476 silly gunzTarPerm extractEntry README.md
+477 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+478 silly gunzTarPerm extractEntry index.js
+479 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+480 silly gunzTarPerm extractEntry test.js
+481 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+482 silly gunzTarPerm extractEntry .npmignore
+483 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+484 silly gunzTarPerm extractEntry test.js
+485 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+486 silly gunzTarPerm extractEntry index.js
+487 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+488 silly gunzTarPerm extractEntry Readme.md
+489 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+490 silly gunzTarPerm extractEntry LICENSE
+491 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+492 silly gunzTarPerm extractEntry index.js
+493 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+494 silly gunzTarPerm extractEntry example.js
+495 silly gunzTarPerm modified mode [ 'example.js', 420, 438 ]
+496 silly gunzTarPerm extractEntry index.js
+497 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry .travis.yml
+499 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+500 silly gunzTarPerm extractEntry component.json
+501 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+502 silly gunzTarPerm extractEntry test/index.js
+503 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+504 silly gunzTarPerm extractEntry instance.js
+505 silly gunzTarPerm modified mode [ 'instance.js', 420, 438 ]
+506 silly gunzTarPerm extractEntry index.d.ts
+507 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 438 ]
+508 silly gunzTarPerm extractEntry History.md
+509 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+510 silly gunzTarPerm extractEntry Makefile
+511 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+512 silly gunzTarPerm extractEntry dist/tinyemitter.js
+513 silly gunzTarPerm modified mode [ 'dist/tinyemitter.js', 420, 438 ]
+514 silly gunzTarPerm extractEntry dist/tinyemitter.min.js
+515 silly gunzTarPerm modified mode [ 'dist/tinyemitter.min.js', 420, 438 ]
+516 silly gunzTarPerm extractEntry Readme.md
+517 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+518 silly gunzTarPerm extractEntry component.json
+519 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+520 silly gunzTarPerm extractEntry test/index.js
+521 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+522 verbose write writing to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector\package.json
+523 info preinstall matches-selector@1.2.0
+524 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector\package.json
+525 verbose write writing to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel\package.json
+526 info preinstall array-parallel@0.1.3
+527 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector\package.json
+528 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel\package.json
+529 silly install resolved []
+530 verbose about to build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+531 info build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+532 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel\package.json
+533 verbose write writing to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit\package.json
+534 info linkStuff matches-selector@1.2.0
+535 silly linkStuff matches-selector@1.2.0 has c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules as its parent node_modules
+536 silly install resolved []
+537 verbose about to build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+538 info build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+539 info preinstall throttleit@1.0.0
+540 verbose linkBins matches-selector@1.2.0
+541 verbose linkMans matches-selector@1.2.0
+542 verbose rebuildBundles matches-selector@1.2.0
+543 verbose write writing to c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter\package.json
+544 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit\package.json
+545 info install matches-selector@1.2.0
+546 info postinstall matches-selector@1.2.0
+547 info linkStuff array-parallel@0.1.3
+548 silly linkStuff array-parallel@0.1.3 has c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules as its parent node_modules
+549 info preinstall tiny-emitter@2.0.2
+550 verbose unlock done using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\matches-selector-79a2269d92404fba.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\matches-selector
+551 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit\package.json
+552 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter\package.json
+553 silly install resolved []
+554 verbose about to build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+555 info build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+556 verbose linkBins array-parallel@0.1.3
+557 verbose linkMans array-parallel@0.1.3
+558 verbose rebuildBundles array-parallel@0.1.3
+559 info install array-parallel@0.1.3
+560 info linkStuff throttleit@1.0.0
+561 silly linkStuff throttleit@1.0.0 has c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules as its parent node_modules
+562 info postinstall array-parallel@0.1.3
+563 verbose readDependencies loading dependencies from c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter\package.json
+564 verbose unlock done using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\array-parallel-15b10295b222484c.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\array-parallel
+565 verbose linkBins throttleit@1.0.0
+566 verbose linkMans throttleit@1.0.0
+567 verbose rebuildBundles throttleit@1.0.0
+568 info install throttleit@1.0.0
+569 info postinstall throttleit@1.0.0
+570 silly install resolved []
+571 verbose about to build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+572 info build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+573 verbose unlock done using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\throttleit-bb2f8cb879877390.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\throttleit
+574 info linkStuff tiny-emitter@2.0.2
+575 silly linkStuff tiny-emitter@2.0.2 has c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules as its parent node_modules
+576 verbose linkBins tiny-emitter@2.0.2
+577 verbose linkMans tiny-emitter@2.0.2
+578 verbose rebuildBundles tiny-emitter@2.0.2
+579 info install tiny-emitter@2.0.2
+580 info postinstall tiny-emitter@2.0.2
+581 verbose unlock done using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\tiny-emitter-c75b3225398c5890.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs\node_modules\tiny-emitter
+582 verbose about to build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+583 info build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+584 info linkStuff shufflejs@5.0.3
+585 silly linkStuff shufflejs@5.0.3 has c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules as its parent node_modules
+586 verbose linkBins shufflejs@5.0.3
+587 verbose linkMans shufflejs@5.0.3
+588 verbose rebuildBundles shufflejs@5.0.3
+589 verbose rebuildBundles [ 'array-parallel',
+589 verbose rebuildBundles   'matches-selector',
+589 verbose rebuildBundles   'throttleit',
+589 verbose rebuildBundles   'tiny-emitter' ]
+590 info install shufflejs@5.0.3
+591 info postinstall shufflejs@5.0.3
+592 verbose unlock done using C:\Users\mary grace\AppData\Roaming\npm-cache\_locks\shufflejs-6c5edbfba75c930e.lock for c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight\node_modules\shufflejs
+593 info build c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+594 info linkStuff toolbox-4@4.1.2
+595 silly linkStuff toolbox-4@4.1.2 has c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes as its parent node_modules
+596 verbose linkBins toolbox-4@4.1.2
+597 verbose linkMans toolbox-4@4.1.2
+598 verbose rebuildBundles toolbox-4@4.1.2
+599 verbose rebuildBundles [ '.bin',
+599 verbose rebuildBundles   'asset-builder',
+599 verbose rebuildBundles   'bower',
+599 verbose rebuildBundles   'browser-sync',
+599 verbose rebuildBundles   'del',
+599 verbose rebuildBundles   'favicons',
+599 verbose rebuildBundles   'gulp',
+599 verbose rebuildBundles   'gulp-autoprefixer',
+599 verbose rebuildBundles   'gulp-changed',
+599 verbose rebuildBundles   'gulp-cli',
+599 verbose rebuildBundles   'gulp-concat',
+599 verbose rebuildBundles   'gulp-cssnano',
+599 verbose rebuildBundles   'gulp-favicons',
+599 verbose rebuildBundles   'gulp-flatten',
+599 verbose rebuildBundles   'gulp-if',
+599 verbose rebuildBundles   'gulp-imagemin',
+599 verbose rebuildBundles   'gulp-jshint',
+599 verbose rebuildBundles   'gulp-less',
+599 verbose rebuildBundles   'gulp-plumber',
+599 verbose rebuildBundles   'gulp-rename',
+599 verbose rebuildBundles   'gulp-rev',
+599 verbose rebuildBundles   'gulp-rewrite-css',
+599 verbose rebuildBundles   'gulp-sass',
+599 verbose rebuildBundles   'gulp-sourcemaps',
+599 verbose rebuildBundles   'gulp-uglify',
+599 verbose rebuildBundles   'gulp-util',
+599 verbose rebuildBundles   'imagemin-pngcrush',
+599 verbose rebuildBundles   'jshint',
+599 verbose rebuildBundles   'jshint-stylish',
+599 verbose rebuildBundles   'lazypipe',
+599 verbose rebuildBundles   'merge-stream',
+599 verbose rebuildBundles   'minimist',
+599 verbose rebuildBundles   'run-sequence',
+599 verbose rebuildBundles   'shufflejs',
+599 verbose rebuildBundles   'traverse',
+599 verbose rebuildBundles   'wiredep' ]
+600 info install toolbox-4@4.1.2
+601 info postinstall toolbox-4@4.1.2
+602 verbose unsafe-perm in lifecycle true
+603 info toolbox-4@4.1.2 Failed to exec postinstall script
+604 verbose stack Error: toolbox-4@4.1.2 postinstall: `find node_modules/ -name '*.info' -type f -delete`
+604 verbose stack Exit status 1
+604 verbose stack     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+604 verbose stack     at emitTwo (events.js:87:13)
+604 verbose stack     at EventEmitter.emit (events.js:172:7)
+604 verbose stack     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+604 verbose stack     at emitTwo (events.js:87:13)
+604 verbose stack     at ChildProcess.emit (events.js:172:7)
+604 verbose stack     at maybeClose (internal/child_process.js:829:16)
+604 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+605 verbose pkgid toolbox-4@4.1.2
+606 verbose cwd c:\Users\mary grace\Documents\Lian\work\vagrant env_php7\html\insight-test\sites\all\themes\insight
+607 error Windows_NT 10.0.15063
+608 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+609 error node v4.5.0
+610 error npm  v2.15.9
+611 error code ELIFECYCLE
+612 error toolbox-4@4.1.2 postinstall: `find node_modules/ -name '*.info' -type f -delete`
+612 error Exit status 1
+613 error Failed at the toolbox-4@4.1.2 postinstall script 'find node_modules/ -name '*.info' -type f -delete'.
+613 error This is most likely a problem with the toolbox-4 package,
+613 error not with npm itself.
+613 error Tell the author that this fails on your system:
+613 error     find node_modules/ -name '*.info' -type f -delete
+613 error You can get information on how to open an issue for this project with:
+613 error     npm bugs toolbox-4
+613 error Or if that isn't available, you can get their info via:
+613 error
+613 error     npm owner ls toolbox-4
+613 error There is likely additional logging output above.
+614 verbose exit [ 1, true ]

@@ -1,0 +1,478 @@
+// Temporary
+.ins-wgt-item {
+   padding-bottom: 15px;
+   border-bottom: 2px solid #555;
+}
+
+.ins-tf,
+.ins-ta {
+    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000;
+    font: {
+      size: 20px;
+    } 
+}
+
+.btn-ins-drk {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #1f1f1f;
+    border-radius: 0;
+    border: 2px solid #000;
+    color: #fff;
+    font: {
+      size: 16px;
+      weight: bold;
+    };
+    
+    &:focus,
+    &:hover {
+      background: #FFF;
+      color: #000;
+    }
+    
+   &[disabled="disabled"] {
+      cursor: not-allowed;
+   }
+}
+
+
+.btn-ins-white {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #fff;
+  border-radius: 0;
+  color: #000;
+  font: {
+    size: 16px;
+    weight: bold;
+  };
+  
+  &:focus,
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+
+
+#mob-banner-text-center {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #fff;
+
+  @media (max-width: 400px){
+     //width: 100%;
+  }
+
+  @media (min-width: $screen-md) {
+     width: 100%;
+     font-size: 59px;
+  }
+}
+
+.banner-center-text {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  height: 177px;
+
+  @media (min-width: $screen-md) {
+    height: 252px;
+  }
+
+  .banner-content {
+    margin: 0 auto;
+  }
+}
+
+.banner-left-text {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  //display: flex;
+  //align-items: center;
+  height: 122px;
+
+  @media (min-width: $screen-md) {
+    height: 157px;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 15px;
+
+    @media (min-width: $screen-md) {
+      margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0;
+      width: 85%;
+    }
+  }
+}
+
+#mob-banner-text-left {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #fff;
+
+  @media (min-width: $screen-md) {
+     font-size: 40px;
+     color: #000;
+  }
+}
+
+.brk {
+  border-top: 1px solid #000;
+}
+
+.ins-dd {
+   border: 1px solid #e0e0e0;
+   min-height: 56px;
+}
+
+.display-table {
+   display: table;
+   width: 100%;
+   height: 100%;
+}
+
+.display-table-row {
+   display: table-row;
+}
+
+.display-table-cell {
+   display: table-cell;
+}
+
+.text-middle {
+   vertical-align: middle;
+}
+
+p,
+li {
+   word-wrap: break-word;
+   word-break: break-word;
+}
+
+.ins-cb-wrp {
+   position: relative;
+}
+
+.ins-cb-ele {
+   position: absolute;
+   margin-left: 10px;
+}
+
+.ins-cb:checked {
+         
+   +.ins-cb-ds { 
+      background: #000;
+   }
+   
+   +.ins-cb-ds-wht { 
+      background: #fff;
+   }
+   
+   +.ins-cb-ds-wht .ins-cb-inner { 
+      border: 2px solid #fff;
+      height: 12px;
+      width: 12px;
+      border-radius: 6px;
+      background-color: #000;
+   }
+   
+   
+}
+
+.ins-cb-ds-wht {
+   width: 16px;
+   height: 16px;
+   border: 2px solid #1f1f1f;
+   border-radius: 50%;
+}
+
+
+.ins-cb-ds {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #1f1f1f;
+    border-radius: 50%;
+}
+
+.ins-cb-lb {
+   padding-left: 40px;
+}
+
+.stdnt-wrks.press-cnt-cont {
+  /*padding-bottom: 303px!important;
+
+  @media (min-width: $screen-sm){
+    padding-bottom: 141px!important;
+  }*/
+
+}
+
+#tnc-chkbx {
+   .ins-cs-gn-lb {
+      padding-left: 0;
+   }
+
+   .ins-cb-ele {
+      margin-left: 0;
+      margin-top: 7px;
+   }
+}
+
+#ins-press-bnr {
+  height: 178px;
+  box-shadow: none;
+
+  @media (min-width: $screen-sm){
+    height: 253px;
+  }
+}
+
+.pagination li.active a{
+  color: #fff;
+  background-color: #000;
+  border: 0;
+}
+
+.pagination li{
+  &:active , &:focus {
+    a {
+      color: #fff;
+      background-color: #000;
+      border: 0;
+    }
+  }
+}
+
+
+.wht-ovrly {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.internship-page {
+  z-index: -2;
+  position: relative;
+
+  #mob-banner-text {
+    font-family: latoregular;
+    font-weight: bold;
+
+    @media (min-width: $screen-sm){
+      font-size: 40px;
+      text-align: left;
+      color: #000;
+      padding-bottom: 50px;
+    }
+  }
+}
+
+.sub-itm.active, .mn-itm.active .mn-itm-a{
+   font-weight: bold;
+   color: #000 !important;
+
+   &:hover, &:active, &:focus {
+      background-color: #fff;
+      outline: none;
+      color: #000;
+   }
+}
+
+.sub-itm.active a {
+   color: #000;
+}
+
+.err {
+   border: 1px solid red !important;
+}
+
+.err-msg {
+   margin-top: 5px;
+   font-size: 14px;
+   color: red;
+}
+
+.ins-prog-modal {
+   z-index: 1650 !important; 
+   
+   .modal-content {
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 0;
+   }
+   
+   .modal-header {
+      padding: 0;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e5e5e5;
+   }
+   
+   .modal-body {
+      padding-left: 0;
+      padding-right: 0;
+   }
+   
+   .modal-footer {
+      padding-left: 0;
+      padding-right: 0;
+      border: 0;
+   }
+   
+   .bootstrap-dialog-title {
+      font-family: 'latoregular';
+      font-weight: bold;
+   }
+   
+   .bootstrap-dialog-message {
+      font-family: "Myriad Pro", serif;
+      font-size: 20px;
+      color: $font-color;
+   }
+     
+}
+
+
+.banner-center-text {
+
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 119px;
+   }
+  
+}
+
+
+.ins-ctc-hd {
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 119px;
+   }
+}
+
+#ins-ec-wrp .ins-ec-hd {
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 119px;
+   }
+}
+
+#ins-lc-wrp .ins-lc-hd {
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 119px;
+   }
+}
+
+.ins-sc-hd {
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 119px;
+   }
+}
+
+.booking-banner-row {
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 119px;
+   }
+}
+
+.desk-menu-navbar {
+   @media (min-width: $screen-sm){
+      position: absolute;
+      width: 100%;
+      top: 371px;
+   }
+}
+
+.mnu-nvbar-fixed {
+   position: fixed;
+   width: 100%;
+   top: 153px;
+   z-index: 2;
+   background-color: #fff;
+   z-index: 10;
+}
+
+.mn-hdr-bg.fixed-header {
+  height: auto;
+}
+
+.bnr-fixed {
+   height: 34px !important;
+   position: fixed !important;
+   width: 100%;
+   //top: 99px;
+   z-index: 2;
+   opacity: 1;
+   padding-top: 7px;
+   overflow: hidden;
+
+   .banner-content {
+      overflow: hidden;
+      height: 100%;
+      opacity: 0;
+   }
+
+}
+
+.rel-fixed {
+  height: 103px !important;
+  position: fixed !important;
+  width: 100%;
+  top: 304px;
+  z-index: 2;
+  opacity: 1;
+  overflow: hidden;
+  margin-left: 4.6% !important;
+  margin-right: 4.6% !important;
+
+  @media (min-width: 1200px){
+    margin-left: 61.250px !important;
+    margin-right: 61.250px !important;
+  }
+}
+
+
+.partner-mn-cont .list-section, #ins-ssp-wrap .container-fluid {
+  padding-top: 20px;
+}
+
+textarea, input, button { 
+  outline: none; 
+}

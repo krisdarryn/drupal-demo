@@ -1,0 +1,127 @@
+.head-fix {
+    padding-bottom: 0!important;
+    @media (min-width: $screen-sm) {
+        padding-bottom: 65px!important;
+    }
+}
+
+
+.blckBnrSlgn {
+    color: #000!important;
+}
+
+
+.intrnshp {
+
+    padding-top: 0!important;
+
+    .intro-panl {
+        margin-left: 0!important;
+    }
+
+    .comp-bdy {
+        padding-top: 30px;
+    }
+
+
+    .slider-container {
+
+        @media (max-width: $screen-sm) {
+            padding-top: 25px!important;
+        }
+
+
+        padding: 0;
+        margin-right: -15px;
+    }
+    
+    .intr-shp-sldr-wrp {
+         @media (max-width: $screen-sm) {
+            padding-top: 10px !important;
+        }
+    }
+
+    @media (min-width: $screen-md) {
+
+        .prj-submit-bdy {
+            margin-top: -30px!important;
+        }
+
+        .slider-container {
+            .sldr-img-wrpr {
+                p {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .slider-section {
+
+        margin: 0;
+        .sldr-img-wrpr {
+            margin-right: 15px !important;
+            //width: 796px;
+            @media (max-width: $screen-sm) {
+                //width: 382px;
+            }
+            img {
+                //width: 100%;
+            }
+        }
+    }
+
+    .grd-img {
+        margin-right: 0!important;
+        max-width: 154px;
+    }
+    
+    .intrshp-desc-wrp {
+      
+      @media (min-width: $screen-sm-min) {
+         padding-bottom: 14px;
+      }
+      
+    }
+
+    .slick-dots {
+        position: initial;
+    }
+}
+
+.slide-desc {
+    min-height: 56px;
+}
+
+.read-more-container {
+   padding-left: 0;
+}
+
+.cstm-col-sm-2 {
+   @media (min-width: $screen-sm) {
+      width: 20%;
+   }
+}
+
+#int-rm-rl {
+    padding-top: 0;
+}
+
+#ins-mn-bdy-cntr {
+
+   .intrnshp {
+      
+      .read-more {
+         padding-top: 0;
+         margin-bottom: 20px;
+      }
+      
+      .intership-rm-wrp {
+         margin-bottom: 24px;
+      }
+      
+      .grd-img {
+         margin-bottom: 20px;
+      }
+   }
+}

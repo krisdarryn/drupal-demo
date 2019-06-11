@@ -1,0 +1,377 @@
+#ins-ctc-wrp {
+   .ins-ctc-read-only {
+      background-color: #fff;
+   }
+}
+
+.ins-ctc-bnr {
+   background-image: url(../images/ctc-ci.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   box-shadow: 2px 3px 5px 0 #c4c4c4;
+   height: 184px;
+   width: 100%;
+   
+   @media (min-width: $screen-sm-min) {
+      height: 271px;
+   }
+}
+
+.ins-ctc-sg {
+    margin: 0;
+    font: {
+      family: latoregular;
+      size: 40px;
+    };
+    color: #fff;
+    
+    @media (min-width: $screen-sm-min) {
+      font-size: 85px;
+   }
+}
+
+.ins-ctc-ct-wrp {
+   margin-top: 18px;
+   margin-bottom: 42px;
+   
+   @media (min-width: $screen-sm-min) {
+      margin-bottom: 23px;
+      margin-top: 60px;
+   }
+}
+
+#ins-ctc-add {
+   @media (min-width: $screen-sm-min) {
+      width: 250px;
+   }
+}
+
+.ins-ctc-ct-tl {
+   margin-top: 0;
+   margin-bottom: 16px;
+   font: {
+      family: latoregular;
+      size: 24px;
+      weight: bold;
+   };
+   
+   &.ins-ctc-sm-tl {
+      margin-bottom: 24px;
+   }
+}
+
+.ins-ctc-sm-tl {
+   margin-bottom: 24px;
+}
+
+.ins-ctc-ct-cnt {
+   margin-bottom: 0;
+   
+   &.inst-sm-list {
+      @media (min-width: $screen-sm-min) {
+         width: 210px;
+      }
+   }
+   
+   .footer-social-icons {
+      margin-right: 15px;
+      
+      &.last {
+         margin-right: 0;
+      }
+      
+   }
+}
+
+.ins-ctc-ct-itm {
+   
+   &.ctc-vu-cnt {
+      margin-bottom: 22px;
+   }
+   
+   &.ctc-cu-cnt {
+      margin-bottom: 31px;      
+   }
+   
+}
+
+.ins-ctc-ct-list-itm {
+   //margin-bottom: 13px;
+   
+   @media (min-width: $screen-sm-min) {
+      margin-bottom: 0;
+   }
+   
+   &.last {
+      margin-bottom: 0;
+   }
+}
+
+.ins-ctc-fm-wrp {
+   padding-bottom: 71px;
+   padding-top: 32px;
+   background: #f4f4f4;
+   
+   @media (min-width: $screen-sm-min) {
+      padding-top: 46px;
+      padding-bottom: 31px
+   }
+
+   .err-msg {
+    background-color: #f4f4f4;
+    padding-top: 5px;
+    margin-top: 0;
+   }
+}
+
+.ins-ctc-fm-bd {
+   
+   .ins-ctc-fm-frm-grp  {
+      margin-left: -15px;
+      margin-right: -15px;
+      
+      @media (min-width: $screen-sm-min) {
+         margin-bottom: 37px;
+         
+         &.ins-ctc-fm-lsm {
+            margin-bottom: 15px;
+         }
+      }
+
+      .ins-dd-wrp {
+        background-color: #fff;
+      }
+   }
+   
+}
+
+#ins-ctc-frm {
+   
+   .ins-dd {
+      border: 0;
+      min-height: 0;
+      padding-top: 12px;
+      padding-bottom: 12px;
+   }
+   
+   ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color:    #000;
+   }
+   :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color:    #000;
+   }
+   ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color:    #000;
+   }
+   :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color:    #000;
+   }
+   ::-ms-input-placeholder { /* Microsoft Edge */
+      color:    #000;
+   }
+   
+   .ins-dd-wrp select{
+      //background: #fff;
+   }
+   
+   .ins-cs-gn-lb {
+      @media (min-width: $screen-sm-min) {
+         margin-bottom: 10px;
+      }
+   }
+   
+}
+
+.ins-ctc-l-frm {
+   
+   .ins-ctc-fm-frm-grp {
+      
+      &:last-child {
+         margin-bottom: 15px;
+      }
+   }
+}
+
+.btn-ins-ctc-fm {
+   width: 183px;
+   padding: 17px 0;
+   
+   @media (min-width: $screen-sm-min) {
+      float: right;
+   }
+}
+
+.ins-ctc-fm-tl {
+   margin-top: 0;
+   margin-bottom: 41px;
+   font: {
+      family: latoregular;
+      size: 24px;
+      weight: 700;   
+   };
+}
+
+.ins-ctc-gm-bd {
+   margin-bottom: 34px;
+   width: 100%;
+   height: 327px;
+   
+   @media (min-width: $screen-sm-min) {
+      margin-bottom: 76px;
+      height: 679px;
+   }
+}
+
+.ins-ctc-gm {
+   width: 100%;
+   height: 100%;
+   //background-image: url('../images/ctc-gm.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+}
+
+.ins-ctc-rt-wrp {
+   padding-top: 43px;
+   width: 100%;
+   min-height: 887px;
+   background-image: url(../dist/image/ctc-info-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   
+   @media (min-width: $screen-sm-min) {
+      padding-top: 45px;
+      padding-bottom: 68px;
+   }
+}
+
+.ins-ctc-tr-tl {
+   margin: 0;
+   font: {
+      family: latoregular;
+      size: 24px;
+      weight: 700;   
+   };
+}
+
+.ins-ctc-rt-hd {
+   padding-bottom: 10px;
+   border-bottom: 1px solid #bdbdbd;
+}
+
+.ins-ctc-rt-hd-tl {
+   margin: 0;
+   position: relative;
+   
+   a,
+   span {
+      padding-right: 10px;
+      display: block;
+      font: {
+         size: 24px;
+         family: latoregular;
+         weight: bold;
+      };
+      color: #1f1f1f;
+      
+      &:hover,
+      &:focus,
+      &:active {
+         color: #1f1f1f;
+         text-decoration: none;
+      }
+   }
+}
+
+.ins-ctc-rt-hd-icon {
+   position: absolute;
+   right: 0;
+   top: 10px;
+}
+
+.ins-ctc-rt-bd {
+   @media (min-width: $screen-sm-min) {
+      display: block !important;
+      height: auto !important;
+   }
+}
+
+.ins-ctc-rt-list {
+   padding-top: 27px;
+}
+
+.ins-ctc-rt-tl {
+   margin: 0;
+   margin-bottom: 15px;
+   font: {
+      size: 18px;
+      family: latoregular;
+      weight: bold;
+   };
+   
+   &.ins-rt-by-car {
+      font-size: 19px;
+   }
+   
+   &.ins-rt-hd-tl {
+      margin-bottom: 43px;
+      font: {
+         size: 30px;
+         weight: normal;
+      };
+   }
+}
+
+.ins-ctc-rt-cnt {
+   margin-bottom: 23px;
+   padding-bottom: 29px;
+   padding-top: 22px;
+   padding-left: 31px;
+   padding-right: 23px;
+   background: #fff;
+}
+
+.ins-ctc-rt-stl {
+   margin: 0;
+}
+
+.ins-rt-by-car-list {
+   margin-bottom: 25px;
+   padding-left: 20px;
+}
+
+.ins-rt-opt-tl {
+   margin-bottom: 14px;
+   font-size: 10px;
+}
+
+.ins-rt-mn-bs-tl {
+   margin-bottom: 10px;
+}
+
+.ins-rt-mn-bs-wrp {
+   margin-top: 41px;
+   margin-bottom: 45px;
+   
+   &.last {
+      margin-bottom: 20px;
+   }
+}
+
+.ins-ctc-rt-itm {
+   //margin-bottom: 45px;
+   
+   &.last {
+      margin-bottom: 0;
+   }
+}
+
+.ins-rt-bb-tl {
+   font-size: 10px;
+}
+
+.ins-rt-bb-stl {
+   
+}

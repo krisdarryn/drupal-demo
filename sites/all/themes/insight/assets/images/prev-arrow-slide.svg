@@ -1,0 +1,14 @@
+<svg width="53" height="84" viewBox="0 0 53 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ic-chevron-left-48px</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2108 5582)">
+<g id="ic-chevron-left-48px">
+<g id="Vector">
+<use xlink:href="#path11_fill" transform="matrix(1 1.22402e-16 1.22528e-16 -1 2108.71 -5498.04)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path11_fill" d="M 51.8816 9.89544L 41.9811 0L 0 41.9595L 41.9811 83.9189L 51.8816 74.0235L 19.8011 41.9595L 51.8816 9.89544Z"/>
+</defs>
+</svg>

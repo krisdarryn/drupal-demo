@@ -1,0 +1,70 @@
+.user-login-page {
+   margin-top: 60px;
+
+   .form-item { margin-bottom: 25px; }
+   
+   .form-actions { margin-top: 30px; }
+   
+   label { font-size: 14px; }
+   
+   .messages {
+      max-width: 400px;
+      margin: 0 auto;
+      font-size: 16px;
+      padding: 10px;
+      
+      &.status {
+         color: #3c763d;
+         background-color: #dff0d8;
+      }
+   }
+}
+
+.login-outer-wrap {
+   max-width: 400px;
+   margin: 0 auto;
+}
+
+.insight-user-login-form-wrapper {
+   background: #f4f4f4;
+   padding: 20px;
+}
+
+.form-text-field {
+   height: 50px;
+   padding: 16px 14px;
+   border: 0;
+   border-radius: 0;
+   box-shadow: none;
+   color: #000;
+   font-size: 20px;
+}
+
+.btn-login {
+   background: #1f1f1f;
+   border-radius: 0;
+   border: 2px solid #000;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 700;
+   width: 100%;
+   padding: 17px 0;
+}
+
+.forget-pass-link {
+   font-size: 16px;
+   margin-top: 15px;
+}
+
+.user-reset-outer-wrap {
+   max-width: 710px;
+   margin: 0 auto;
+   
+   .form-actions { text-align: center; }
+   
+   .btn-login {
+      @media (min-width: $screen-sm) {
+         width: 183px;
+      }
+   }
+}

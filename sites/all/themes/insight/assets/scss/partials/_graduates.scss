@@ -1,0 +1,292 @@
+#grd-mdl-sldr {
+    padding-bottom: 0!important;
+    margin-right: -15px!important;
+    margin-left: -30px!important;
+    margin-bottom: 60px;
+
+    @media (min-width: $screen-sm){
+      margin-bottom: 18px;
+    }
+    
+    .sldr-img-wrpr {
+        //width: 326.34px;
+        height: 274px;
+        @media (min-width: $screen-sm) {
+            //width: 795.76px;
+            height: 481px;
+        }
+    }
+
+
+    .next-slide-btn {
+        right: 30px;
+    }
+
+    .slide-desc {
+        min-height: 50px;
+        width: 326.34px;
+        @media (min-width: $screen-sm) {
+            width: 795.76px;
+        }
+    }
+
+    .slick-dots {
+        position: initial;
+    }
+}
+
+// common classes
+
+.grd-img {
+    margin-bottom: 0;
+    text-align: center;
+    height: 200px;
+    white-space: nowrap;
+
+    .helper {
+        vertical-align: middle;
+        display: inline-block;
+        height: 100%;
+    }
+
+    img {
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.grd-hl {
+    font-weight: bolder;
+    display: block;
+}
+
+
+// graduates modal
+
+.ins-mdl2-hdr {
+
+    padding-bottom: 347px!important;
+    background-size: cover;
+    position: relative;
+
+    @media (min-width: $screen-md) {
+        padding-bottom: 45%!important;
+        background-size: 100% 100%;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 70%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #000 100%);
+        opacity: .6; 
+        display: inline;
+    }
+
+
+    
+    .ins-mdl2-title {
+        border-bottom: 1px solid #bdbdbd;
+        @media (min-width: $screen-sm) {
+            border-bottom: 1px solid #4f4f4f;
+        }
+    }
+
+
+    .grd-nme {
+        position: absolute;
+        bottom: 0;
+        left:30px;
+        @media (min-width: $screen-sm) {
+            left: 78px;
+        }
+        font-size: 30px;
+        color: #fff;
+        span {
+            margin-top: -10px;
+        }
+    }
+}
+
+.grd-title {
+    padding-bottom: 50px;
+
+   @media (max-width: $screen-sm){
+      padding-top: 16px;
+   }
+}
+
+.motto-sec {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    .motto-bdy {
+        width: 85%;
+        @media (min-width: $screen-sm) {
+            width: 76%;
+        }
+        margin: 0 auto;
+        .qt-msg-holder {
+            padding-top: 27px;
+            padding-bottom: 25px;
+            @media (min-width: $screen-sm) {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                font-size: 28px!important;
+            }
+            font-size: 30px!important;
+        }
+
+        .opn-qt {
+            position: absolute;
+            left: 2%;
+            top: 20px;
+        }
+
+        .cls-qt {
+            position: absolute;
+            right: 2%;
+            bottom: 40px;
+        }
+    }
+}
+
+
+.grd-inf {
+    padding-top: 30px;
+    .grd-inf-sec {
+        padding-bottom: 33px;
+        
+        &.grd-inf-desc {
+            padding-bottom: 30px;
+        }
+    }
+
+    .read-more {
+        padding: 0;
+        margin-right: 30px;
+    }
+}
+
+
+#ins-grdt-det {
+    margin: 0!important;
+
+    .grd-inf-det {
+        margin: 0 15px;
+        @media (min-width: $screen-sm) {
+            margin: 0 65px;
+        }
+    }
+}
+
+.ins-mdl-bdy {
+    @media (min-width: $screen-sm) {
+        margin: 0 auto;
+    }
+    .slider-container {
+        padding-top: 30px!important;
+        padding-bottom: 30px!important;
+        @media (min-width: $screen-sm) {
+            width: 119%!important;
+        }
+    }
+
+    .mdl-grd-bckgrnd {
+        display: none;
+    }
+
+    .read-more {
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+
+.ins-mdl-grd {
+    padding-top: 15px!important;
+}
+
+@mixin flex-grid-items($cols) {
+    display: flex;
+    flex-wrap: wrap;
+  
+    > * {
+      $item-width: 100% / $cols;
+      width: $item-width;
+      box-sizing: border-box;
+    }
+  }
+
+
+.cstm-cols {
+
+    @include flex-grid-items(5);
+    @media (max-width: $screen-md) {
+        @include flex-grid-items(4)
+    }
+
+    @media (max-width: $screen-sm) {
+        @include flex-grid-items(2)
+    }
+}
+
+
+.mdl-btm-text {
+    padding-top: 0;
+}
+
+.ins-mdl-grd#ins-grdt-det {
+    padding-top: 5px !important;
+}
+
+.employmentList {
+   .cstm-col-sm-2 {
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+}
+
+.grd-std-wrk-lst {
+   margin-bottom: 45px;
+   
+   .cont-sec {
+      padding-bottom: 0;
+   }
+   
+   .lg-bdy {
+      padding-top: 0;
+   }
+   
+   h3.grd-std-wrk-lg-hd,
+   .grd-h2-tle {
+      margin-bottom: 30px;
+            
+      @media (min-width: $screen-sm-min) {
+         margin-top: 15px;
+      }
+   }
+   
+   .grd-h2-tle {
+      font-family: latoregular,serif;
+      font-size: 30px;
+   }
+   
+   /*.grd-img {
+      margin-bottom: 15px;
+   }*/
+}
+
+.grd-dtl-motto-sec {
+   
+   @media (min-width: $screen-sm-min) {
+      margin-bottom: 22px;
+   }
+   
+}

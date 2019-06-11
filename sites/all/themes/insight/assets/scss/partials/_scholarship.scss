@@ -1,0 +1,75 @@
+.scholarship-page {
+   .cont-sec {
+      padding-top: 0;
+      margin-top: 18px;
+      margin-bottom: 12px;
+      
+      @media (min-width: $screen-sm) {
+         margin-top: 0;
+         margin-bottom: 30px;
+      }
+   }
+   
+   #ins-ssp-wrap {
+      .schlshp-gallery-wrap {
+         @media (min-width: $screen-sm) {
+            padding-top: 14px;
+         }
+      }   
+   }
+
+   .read-more {
+      font-size: 20px;
+      color: #000;
+      text-decoration: underline;
+   }
+   
+   .read-more-container {
+      padding-bottom: 30px;
+      margin-top: 25px;
+      text-align: right;
+      
+      &.schl-shp-rm-wrp {
+         padding-bottom: 12px;
+      }
+      
+   }
+}
+
+.schlshp-sec {
+	padding-bottom: 30px!important;
+}
+
+
+.scholarship-page {
+   
+   .schlshp-gallery-wrap {
+     
+      .slider-container {
+         
+         .slide-desc {
+            margin-bottom: 20px;
+            
+            @media (min-width: $screen-sm-min) {
+               margin-bottom: 0;
+            }
+            
+         }
+         
+      }
+      
+   }
+   
+}
+
+#schlshp-gallery-container {
+
+   &.schlshp-gallery-wrap {
+      padding-top: 32px;
+   }
+
+   .slick-dots {
+      position: initial;
+   }
+   
+}

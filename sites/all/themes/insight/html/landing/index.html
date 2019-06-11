@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <title>Base Template</title>
+      
+      <link rel="stylesheet" type="text/css" href="../../dist/styles/bower.css" />
+      <link rel="stylesheet" type="text/css" href="../../dist/styles/styles.css" />
+      
+      <!--[if lt IE 9]>
+         <script type="text/javascript" src="../../dist/scripts/polyfill.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="ins-mn-cntr">
+         
+         <header id="ins-header-landing">
+            <!-- OVERLAY -->
+            <div id="mb-nav-ovly-wrp" style="display: none;">
+               <div id="mb-nav-ovly"></div>
+            </div>
+            <!-- END OF OVERLAY -->
+
+            <div class="mn-hdr-bg">
+               <div class="main-nav">
+                  <div class="navbar header-navbar">       
+                     <div class="ins-pg-container-limit container">
+                        <div style="display: table; width: 100%;">
+                           <div style="display: table-row;">
+                              <a href="#" class="hd-ins-link" style="display: table-cell;"><img src="../../assets/images/insight_logo_grey.png" class="img-responsive"></a>                                                   
+                              <div class="landing-menu-wrapper hidden-sm hidden-md hidden-lg" style="display: table-cell;vertical-align: middle;">
+
+                                 <button id="landing-menu-button" type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                 </button>
+                     
+                                 <div class="menu-lbl">MENU</div>
+                              </div>
+                              <nav id="mb-nav-menu" data-autohide="false" class="navmenu navmenu-default navmenu-fixed-right offcanvas" role="navigation" style>
+                                    
+                                 <div class="mb-nav-wrp">
+                                    <div id="ins-mb-nav-wrp">
+                                       <ul class="nav navmenu-nav mob-ins-navmenu">
+
+                                          <div class="close-nav">
+                                             <button type="button" class="" data-toggle="offcanvas" data-target="#mb-nav-menu" id="btn-close-nav" title="Close">
+                                                <img src="../../assets/images/ic-close-48px 2.png" alt="Close Icon">
+                                                <span class="close-nav-lbl">CLOSE NAVIGATION</span>
+                                             </button>
+                                          </div>
+
+                                          <li class="ins-mb-nav-itm first black">
+                                             <a href="#" title="Explore our courses"><strong>Explore our courses</strong></a>            
+                                          </li>
+
+                                          <li class="ins-mb-nav-itm black">
+                                             <a href="#" title="Get in touch"><strong>Get in touch</strong></a>            
+                                          </li>
+
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#discover-menu-list" class="" title="Discover Insight" data-toggle="collapse" role="button" aria-controls="discover-menu-list" aria-expanded="false">
+                                                Discover Insight<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                             </a>               
+                                             <ul class="collapse list-unstyled" id="discover-menu-list">
+                                                <li class="ins-mb-nav-itm sub-itm first">
+                                                   <a href="#" title="About">About</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Teachers">Teachers</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Graduates">Graduates</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Press">Press</a>                 
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Scholarship">Scholarship</a>                 
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm last">
+                                                   <a href="#" title="Blog">Blog</a>                 
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#" title="Title" class="">Collaborate</a>
+                                          </li>
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#" title="Title" class="">Blog</a>
+                                          </li>
+                                          <li class="ins-mb-nav-itm last">
+                                             <a href="#" title="Title" class="">Jobs</a>
+                                          </li>
+                                       </ul>
+                                    </div>
+            
+                                 </div>
+                              </nav>
+                              <div class="landing-menu-wrapper hidden-xs" style="display: table-cell;vertical-align: top; ">
+                                 <ul class="nav navbar-nav navbar-right visible-sm visible-md visible-lg" id="main-nav-list">
+                                    <li class="main-nav-item first active">
+                                       <a href="#discover-menu-list-main" class="text-uppercase main-nav-item-a" title="Discover Insight" data-toggle="collapse" role="button" aria-controls="discover-menu-list-main" aria-expanded="false">
+                                          Discover Insight
+                                       </a>
+                                       <ul class="collapse list-unstyled main-nav-list-style" id="discover-menu-list-main" style="position: fixed;">
+                                          <li class="main-nav-item-list first active">
+                                             <a href="#" title="About">About</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Teachers">Teachers</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Graduates">Graduates</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Press">Press</a>                 
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Scholarship">Scholarship</a>                 
+                                          </li>
+                                          <li class="main-nav-item-list last">
+                                             <a href="#" title="Blog">Blog</a>                 
+                                          </li>
+                                       </ul>
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Collaborate">Collaborate</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Jobs">Jobs</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Events">Events</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Contact">Contact</a>                       
+                                    </li>
+   
+                                 </ul>
+                              </div>
+                           </div> <!-- end of table row -->
+                        </div> <!-- end of table-->
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="landing-page-banner-container">
+               <div class="landing-page-banner hidden-xs">
+                  <img class="img img-responsive" src="../../assets/images/landing-banner.png" />
+               </div>
+
+               <div class="landing-page-banner visible-xs">
+                  <img class="img img-responsive" src="../../assets/images/landing-banner-mob.png" />
+               </div>
+            </div>
+
+            <div class="landing-menu-options">
+               <div class="row">
+                  <div class="col-xs-6 landing-menu-options-wrapper left">
+                     <a href="#" title="Explore our courses">
+                        <div class="landing-menu-options-inside left">
+                           Explore<br><strong>our courses</strong>
+                        </div>
+                     </a>
+                  </div>
+                  
+                  <div class="col-xs-6 landing-menu-options-wrapper right">      
+                     <a href="#" title="Explore our courses">
+                        <div class="landing-menu-options-inside right">
+                           Get<br><strong>in touch</strong>
+                        </div> 
+                     </a>      
+                  </div>       
+               </div>
+            </div>
+
+			</header>  
+         <div id="ins-mn-bdy-cntr" class=""> 
+         
+            <div class="upcoming-courses-section row container">
+               <div class="col-xs-12 section-title">
+                  <span>Upcoming courses and events</span>
+               </div>
+
+               <div class="col-xs-12 landing-slider-section slider slider-nav">
+                  <div class="slider-container">
+                     <div class="slider-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                        <div class="slider-date">
+                           <span>12 JUNE 2017</span>
+                        </div>
+                     </div>
+                     <div class="slider-info">
+                        <p class="slider-title">Summer course</p>
+                        <div class="slider-details">Introduction to interior design</div>
+                        <p class="slider-duration">Duration 6 Days</p>
+                     </div>
+                  </div>
+
+                  <div class="slider-container">
+                     <div class="slider-image-container" style="background-image: url(../../assets/images/slider-2.png)">
+                        <div class="slider-date">
+                           <span>12 JUNE 2017</span>
+                        </div>
+                     </div>
+                     <div class="slider-info">
+                        <p class="slider-title">Summer course</p>
+                        <div class="slider-details">Introduction to interior design</div>
+                        <p class="slider-duration">Duration 6 Days</p>
+                     </div>
+                  </div>
+
+                  <div class="slider-container">
+                     <div class="slider-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                        <div class="slider-date">
+                           <span>12 JUNE 2017</span>
+                        </div>
+                     </div>
+                     <div class="slider-info">
+                        <p class="slider-title">Summer course</p>
+                        <div class="slider-details">Introduction to interior design</div>
+                        <p class="slider-duration">Duration 6 Days</p>
+                     </div>
+                  </div>
+
+                  <div class="slider-container">
+                     <div class="slider-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                        <div class="slider-date event">
+                           <span>12 JUNE 2017</span>
+                        </div>
+                     </div>
+                     <div class="slider-info">
+                        <p class="slider-title">Event - Open day</p>
+                        <div class="slider-details">Introduction to interior design</div>
+                        <p class="slider-duration">Duration 6 Days</p>
+                     </div>
+                  </div>
+
+                  <div class="slider-container">
+                     <div class="slider-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                        <div class="slider-date">
+                           <span>12 JUNE 2017</span>
+                        </div>
+                     </div>
+                     <div class="slider-info">
+                        <p class="slider-title">Summer course</p>
+                        <div class="slider-details">Introduction to interior design</div>
+                        <p class="slider-duration">Duration 6 Days</p>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div> <!-- end of upcoming courses-->
+
+            <div class="white-wrapper-container">
+            <div class="hands-on-section container">
+               <div class="hands-on-slogan">
+                  <p>Our students work on real life projects with real clients and deadlines.</p>
+                  <p>We believe it's the only way to gain real experience.</p>
+               </div>
+               <div class="graduates-work-banner row">
+                  <div class="graduates-banner col-xs-12 col-sm-6">
+                     <a href="#" title="graduates">
+                        <img class="img img-responsive" src="../../assets/images/graduate.png" />
+                        <div class="graduates-btn">
+                           <div class="hands-on-btn-wrap">
+                              <div class="hands-on-btn" title="">
+                                 <span>GRADUATES</span>
+                                 <span class="hands-on-divider visible-xs"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                     
+                  </div>
+                  <div class="work-banner col-xs-12 col-sm-6">
+                     <a href="#" title="work">
+                        <img class="img img-responsive" src="../../assets/images/work.png" />
+                        <div class="work-btn">
+                           <div class="hands-on-btn-wrap">
+                              <div class="hands-on-btn" title="">
+                                 <span>WORK</span>
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div> <!-- end of hands on section-->
+            </div>
+
+
+            <div class="testimonial-section row container">
+               <div class="testimonial-slogan">
+                  <span>This is why our industry loves us</span>
+               </div>   
+
+               <div class="landing-testimonial-slider slider slider-nav">
+
+                  <div class="testimonial-columns">
+                     <div class="testimonial-wrapper">
+                        <div class="testimonial-container">
+                           <div class="testimonial-text">
+                              <p>
+                                 "The teaching is the best anyone can hope for. Insight staff provides an environment in which students are able to reach their full potential."
+                              </p>
+                           </div>
+      
+                           <div class="testimonial-logo">
+                              <img src="../../assets/images/lee-gardens.png" class="img img-responsive" title="Title">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+   
+                  <div class="testimonial-columns">
+                     <div class="testimonial-wrapper">
+                        <div class="testimonial-container">
+                           <div class="testimonial-text">
+                              <p>
+                                 "The teaching is the best anyone can hope for. Insight staff provides an environment in which students are able to reach their full potential."
+                              </p>   
+                           </div>
+      
+                           <div class="testimonial-logo">
+                              <img src="../../assets/images/lee-gardens.png" class="img img-responsive" title="Title">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+   
+                  <div class="testimonial-columns">
+                     <div class="testimonial-wrapper">
+                        <div class="testimonial-container">
+                           <div class="testimonial-text">
+                                 <p>
+                                    "The teaching is the best anyone can hope for. Insight staff provides an environment in which students are able to reach their full potential."
+                                 </p>   
+                           </div>
+      
+                           <div class="testimonial-logo">
+                              <img src="../../assets/images/lee-gardens.png" class="img img-responsive" title="Title">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+   
+                  <div class="testimonial-columns">
+                     <div class="testimonial-wrapper">
+                        <div class="testimonial-container">
+                           <div class="testimonial-text">
+                              <p>
+                                 "The teaching is the best anyone can hope for. Insight staff provides an environment in which students are able to reach their full potential."
+                              </p>   
+                           </div>
+      
+                           <div class="testimonial-logo">
+                              <img src="../../assets/images/lee-gardens.png" class="img img-responsive" title="Title">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div> <!-- end of testimonial -->
+
+
+         </div> <!-- end of ins-mn-bdy-cntr -->
+         
+         <footer id="ins-ftr-cntr">
+            <div class="footer-container container">
+               <div class="footer-overlay-wrapper">
+                  <div class="row footer-row">
+                     <div class="footer-col col-xs-12 col-sm-3 col-md-3 wht-border-right">
+                        <a href="/" class="footer-ins-link"><img src="../../assets/images/footer_logo.png" class="" title="Title"></a>
+
+                        <div class="footer-details">
+                           <p class="footer-email">info@insightschoolhk.com</p>
+                           <p class="footer-contact">+852 2114 2021</p>
+                        </div>
+
+                        <div class="footer-btn">
+                           <ul class="list-unstyled clearfix ins-ftr-inf-list">
+                              <li class="pull-left">
+                                 <a href="#" title="Request Information" class="text-uppercase ins-ftr-inf-item first">
+                                    Request Information
+                                 </a>
+                              </li>
+                              <li class="pull-left">
+                                 <a href="#" title="Request Information" class="text-uppercase ins-ftr-inf-item">
+                                    Signup for our Newsletter
+                                 </a>
+                              </li>
+                           </ul>
+
+                        </div>
+                     </div>
+
+                     <div class="col-xs-12 col-sm-9 col-md-9">
+                        <div class="col-xs-12 col-sm-3 col-md-3 ins-footer-nav-item list-unstyled first">
+                           <a href="#learn-menu-lists" class="" title="Learn" data-toggle="collapse" role="button" aria-controls="learn-menu-list" aria-expanded="false">
+                              <div class="footer-dropdown">
+                                 <strong>LEARN</strong><span class="visible-xs glyphicon glyphicon-menu-down pull-right"></span>
+                              </div>
+                           </a>  
+                                       
+                           <ul class="footer-dropdown-menu-list collapse list-unstyled" id="learn-menu-lists">
+                              <li class="footer-dropdown-menu-list-itm first">
+                                 <a href="#" title="Courses">Courses</a>                  
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Graduates">Graduates</a>                  
+                              </li>
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Courses">Courses</a>                 
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                    <a href="#" title="Graduates">Graduates</a>                   
+                              </li>
+                           </ul>
+                        </div>
+         
+                           
+                        <div class="col-xs-12 col-sm-3 col-md-3 ins-footer-nav-item list-unstyled">
+                           <a href="#explore-menu-lists" class="" title="Explore" data-toggle="collapse" role="button" aria-controls="explore-menu-list" aria-expanded="false">
+                              <div class="footer-dropdown">
+                                 <strong>EXPLORE</strong><span class="visible-xs glyphicon glyphicon-menu-down pull-right"></span>
+                              </div>
+                           </a>  
+                                       
+                           <ul class="footer-dropdown-menu-list collapse list-unstyled" id="explore-menu-lists">
+                              <li class="footer-dropdown-menu-list-itm first">
+                                 <a href="#" title="Courses">About</a>                  
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Graduates">Meet the graduates</a>                  
+                              </li>
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Courses">Student work</a>                 
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                    <a href="#" title="Graduates">Press</a>                   
+                              </li>
+                           </ul>
+                        </div>
+         
+                        <div class="col-xs-12 col-sm-3 col-md-3 ins-footer-nav-item list-unstyled">
+                           <a href="#experience-menu-lists" class="" title="Experience" data-toggle="collapse" role="button" aria-controls="experience-menu-list" aria-expanded="false">
+                              <div class="footer-dropdown">
+                                 <strong>EXPERIENCE</strong><span class="visible-xs glyphicon glyphicon-menu-down pull-right"></span>
+                              </div>
+                           </a>  
+                                       
+                           <ul class="footer-dropdown-menu-list collapse list-unstyled" id="experience-menu-lists">
+                              <li class="footer-dropdown-menu-list-itm first">
+                                 <a href="#" title="Courses">Internship</a>                  
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Graduates">Our space</a>                  
+                              </li>
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Courses">Events</a>                 
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                    <a href="#" title="Graduates">Jobs</a>                   
+                              </li>
+                           </ul>
+                        </div>
+         
+                        <div class="col-xs-12 col-sm-3 col-md-3 ins-footer-nav-item list-unstyled">
+                           <a href="#connect-menu-lists" class="" title="Connect" data-toggle="collapse" role="button" aria-controls="connect-menu-list" aria-expanded="false">
+                              <div class="footer-dropdown">
+                                 <strong>CONNECT</strong><span class="glyphicon glyphicon-menu-down pull-right visible-xs"></span>
+                              </div>
+                           </a>  
+                                       
+                           <ul class="footer-dropdown-menu-list collapse list-unstyled" id="connect-menu-lists">
+                              <li class="footer-dropdown-menu-list-itm first">
+                                 <a href="#" title="Courses">Contact</a>                  
+                              </li>
+   
+                              <li class="footer-dropdown-menu-list-itm">
+                                 <a href="#" title="Graduates">Blog</a>                  
+                              </li>
+                           </ul>
+
+                           <div class="col-xs-12 footer-social-container">
+                                 
+                              <ul class="list-unstyled clearfix ins-ftr-inf-list">
+                                 <li class="footer-social-icons first">
+                                    <a href="" id="" class="text-uppercase" title="Collaborate">
+                                       <img class="img img-responsive" src="../../assets/images/mb-fb-icon.png"></img>
+                                    </a> 
+                                 </li>
+                                 <li class="footer-social-icons">
+                                    <a href="" id="" class="text-uppercase" title="Collaborate">
+                                       <img class="img img-responsive" src="../../assets/images/mb-twitter-icon.png"></img>
+                                    </a>          
+                                 </li>
+      
+                                 <li class="footer-social-icons">
+                                    <a href="" id="" class="text-uppercase" title="Collaborate">
+                                       <img class="img img-responsive" src="../../assets/images/mb-instagram-icon.png"></img>
+                                    </a> 
+                                 </li>
+      
+                                 <li class="footer-social-icons">
+                                    <a href="" id="" class="text-uppercase" title="Collaborate">
+                                       <img class="img img-responsive" src="../../assets/images/mb-youtube-icon.png"></img>
+                                    </a>   
+                                 </li>
+      
+                                 <li class="footer-social-icons">
+                                    <a href="" id="" class="text-uppercase" title="Collaborate">
+                                       <img class="img img-responsive" src="../../assets/images/mb-pinterest-icon.png"></img>
+                                    </a>    
+                                 </li>
+      
+                                 <li class="footer-social-icons">
+                                    <a href="" id="" class="text-uppercase" title="Collaborate">
+                                       <img class="img img-responsive" src="../../assets/images/mb-linkedin-icon.png"></img>
+                                    </a>      
+                                 </li>
+      
+                              </ul>
+                           </div>               
+                        </div>
+
+                     </div>    
+                  </div>
+               </div>
+               </div>    
+            </div>  
+			</footer>
+         
+      </div>
+      
+      <script type="text/javascript" src="../../dist/scripts/bower.js"></script>
+      <script type="text/javascript" src="../../dist/scripts/insight.js"></script>
+   </body>
+</html>

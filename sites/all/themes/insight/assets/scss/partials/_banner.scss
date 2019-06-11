@@ -1,0 +1,303 @@
+
+/**
+   HEADER
+**/
+
+#ins-hdr-cntr {
+   .header-navbar {
+      @media(min-width: $screen-md){
+         height: 119px;
+      }
+   }
+
+   .hd-ins-link img{
+      @media(min-width: $screen-md){
+         height: 119px;
+      }
+   }
+
+   .hd-ins-link #hd-ins-tag {
+      position: relative;
+      top: -24px;
+      left: 160px;
+      font-size: 9px;
+      color: #000;
+      height: 0;
+      @media (max-width: 500px) {
+         display: none;
+      }
+   }
+}
+
+#mob-banner-text {
+   text-align: center;
+   width: 85%;
+   margin: 0 auto;
+   font-size: 36px;
+   color: #fff;
+
+   @media (max-width: 400px){
+      //width: 100%;
+   }
+
+   @media (min-width: $screen-sm) {
+      width: 100%;
+      font-size: 59px;
+   }
+}
+
+#ins-common-header {
+   .ins-pg-container-limit {
+      @media (min-width: $screen-sm){
+         padding-top: 10px;
+         padding-bottom: 10px;
+      }
+   }
+
+   li.main-nav-item a {
+      @media (min-width: $screen-sm){
+         //padding-top: 5px;
+         padding-bottom: 10px;
+         padding-top: 0;
+      }
+   }
+
+   li.main-nav-item:before {
+      //margin-top: -13.5px;
+      margin-top: -19.5px;
+  }
+}
+
+.banner-center-text {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-color: #fff;
+   height: 252px;
+   display: flex;
+   align-items: center;
+
+   @media (max-width: $screen-sm){
+      height: 145px;
+   }
+}
+
+.banner-content {
+   margin: 0 auto;
+}
+
+.desk-menu-container {
+   //padding-left: 130px;
+}
+
+.navbar-nav>li.active .btn-ins-white{
+   color: #fff;
+   background-color: #000;
+   border-radius: 0;
+}
+
+li.active .btn-ins-white{
+   color: #fff;
+   background-color: #000;
+   border-radius: 0;
+}
+
+.navbar-nav>li> .btn-ins-white{
+   color: #000;
+   background-color: #fff;
+   font-weight: bold;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-weight: 100;
+
+   &:hover, &:focus{
+      color: #000;
+      background-color: #eee;
+      border-radius: 0;
+   }
+}
+
+.btn-ins-white{
+   color: #000;
+   background-color: #fff;
+   font-weight: bold;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-weight: 100;
+
+   &:hover, &:active, &:focus{
+      color: #fff;
+      background-color: #000;
+      border-radius: 0;
+   }
+}
+
+
+
+
+
+
+
+
+
+/**
+footer
+**/
+
+#ins-ftr-cntr.common {
+   height: 282px;
+   background-color: #F4F4F4;
+
+   @media (min-width: $screen-md){
+      height: 140px;
+   }
+}
+
+.common-footer {
+   padding-top: 25px;
+   padding-bottom: 0;
+   @media (min-width: $screen-sm){
+      padding-top: 0;
+   }
+} 
+
+.common-footer-row {
+   //padding-top: 15px;
+   //padding-bottom: 10px;
+   padding-top: 30px;
+   padding-bottom: 45px;
+
+   @media (min-width: $screen-sm){
+      padding-top: 31px;
+      padding-bottom: 31px;
+   }
+}
+
+.common-footer-logo {
+   height: 65px;
+   width: 100%;
+}
+
+.common-footer-logo img {
+   margin: auto;
+}
+
+.footer-sign-newsletter {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: #000;
+   background-color: #fff;
+
+   @media (min-width: $screen-sm){
+      padding: 14px;
+      text-align: left;
+      font-size: 18px;
+      width: 211px;
+   }
+}
+
+.common-footer-menu {
+   padding-top: 5px;
+   padding-bottom: 5px;
+
+   @media (min-width: $screen-md){
+      display: inline-table;
+
+      &.col-md-1 {
+         width: auto;
+      }
+   }
+
+}
+
+.common-footer-menu a {
+   color: #000;
+   font-size: 14px;
+   
+   &:hover, &:active, &:focus {
+      text-decoration: none;
+   }
+}
+
+.sign-up-container {
+   padding-top: 3px;
+   @media (min-width: $screen-md){
+      padding-top: 0;
+   }
+}
+
+#sign-up-link {
+   color: #000;
+   text-decoration: none;
+   font-size: 18px;
+
+   &:hover, &:active, &:focus {
+      text-decoration: none;
+   }
+}
+
+.header-menu-options {
+   position: absolute;
+   right: 0;
+   top: 34px;
+   font-size: 22px;
+   line-height: 26px;
+   width: auto;
+}
+
+.header-menu-options-wrapper {
+   display: inline-block;
+
+   a {
+      color: #000
+   }
+
+   a:hover, a:active, a:focus {
+      text-decoration: none;
+   }
+
+   &.first {
+      margin-right: 55px;
+   }
+}
+
+.common-footer-links {
+   padding-top: 15px;
+
+   li {
+      display: inline-block;
+      width: 49%;
+      padding-top: 5px;
+
+      @media (min-width : $screen-sm) {
+         width: auto;
+         padding-top: 35px;
+         padding-right: 40px;
+      }
+
+      @media (min-width : $screen-sm) and (max-width: 805px) {
+         padding-right: 30px;
+      }
+   }
+
+   li > a {
+      color: #000;
+   }
+}
+
+.common-footer-ul {
+  font-size: 14px;
+   @media (min-width : $screen-sm) {
+      display: inline-block;
+   }
+}
+
+.common-footer-signup {
+   @media (min-width: $screen-sm) {
+      display: inline-block;
+      float: right;
+      padding-top: 16px;
+      padding-bottom: 30px;
+   }
+}

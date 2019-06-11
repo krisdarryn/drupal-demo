@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <title>Base Template</title>
+      
+            <link rel="stylesheet" type="text/css" href="../../dist/styles/bower.css" />
+      <link rel="stylesheet" type="text/css" href="../../dist/styles/styles.css" />
+      
+      <!--[if lt IE 9]>
+         <script type="text/javascript" src="../../dist/scripts/polyfill.js"></script>
+      <![endif]-->
+   </head>
+
+   <body style="background: #fff;">
+
+      
+      <div id="ins-mn-cntr">
+            
+         <header id="ins-common-header">
+            <!-- OVERLAY -->
+            <div id="mb-nav-ovly-wrp" style="display: none;">
+               <div id="mb-nav-ovly"></div>
+            </div>
+            <!-- END OF OVERLAY -->
+
+            <div class="mn-hdr-bg">
+               <div class="main-nav">
+                  <div class="navbar header-navbar">
+                     
+                     <div class="ins-pg-container-limit container">   
+
+                        <div style="display: table; width: 100%; position: relative;">
+                              
+                           <div style="display: table-row;">
+                              <a href="#" class="hd-ins-link" style="display: table-cell;"><img src="../../assets/images/insight_logo_grey.png" class="img-responsive"></a>
+                                                         
+                     
+                              <div class="landing-menu-wrapper hidden-sm hidden-md hidden-lg" style="display: table-cell;vertical-align: middle;">
+
+                                 <button id="landing-menu-button" type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                 </button>
+                     
+                                 <div class="menu-lbl">MENU</div>
+                              </div>
+
+                              <nav id="mb-nav-menu" data-autohide="false" class="navmenu navmenu-default navmenu-fixed-right offcanvas" role="navigation" style>
+                                    
+                                 <div class="mb-nav-wrp">
+                                    <div id="ins-mb-nav-wrp">
+                                       <ul class="nav navmenu-nav mob-ins-navmenu">
+
+                                          <div class="close-nav">
+                                             <button type="button" class="" data-toggle="offcanvas" data-target="#mb-nav-menu" id="btn-close-nav" title="Close">
+                                                <img src="../../assets/images/ic-close-48px 2.png" alt="Close Icon">
+                                                <span class="close-nav-lbl">CLOSE NAVIGATION</span>
+                                             </button>
+                                          </div>
+
+                                          <li class="ins-mb-nav-itm first black">
+                                             <a href="#" title="Explore our courses"><strong>Explore our courses</strong></a>            
+                                          </li>
+
+                                          <li class="ins-mb-nav-itm black">
+                                             <a href="#" title="Get in touch"><strong>Get in touch</strong></a>            
+                                          </li>
+
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#discover-menu-list" class="" title="Discover Insight" data-toggle="collapse" role="button" aria-controls="discover-menu-list" aria-expanded="false">
+                                                Discover Insight<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                             </a>               
+                                             <ul class="collapse list-unstyled" id="discover-menu-list">
+                                                <li class="ins-mb-nav-itm sub-itm first">
+                                                   <a href="#" title="About">About</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Teachers">Teachers</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Graduates">Graduates</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Press">Press</a>                 
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Scholarship">Scholarship</a>                 
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm last">
+                                                   <a href="#" title="Blog">Blog</a>                 
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#" title="Title" class="">Collaborate</a>
+                                          </li>
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#" title="Title" class="">Blog</a>
+                                          </li>
+                                          <li class="ins-mb-nav-itm last">
+                                             <a href="#" title="Title" class="">Jobs</a>
+                                          </li>
+                                       </ul>
+                                    </div>
+            
+                                 </div>
+                              </nav>
+
+                              <div class="landing-menu-wrapper hidden-xs" style="display: table-cell;vertical-align: top; ">
+                                 <ul class="nav navbar-nav navbar-right visible-sm visible-md visible-lg" id="main-nav-list">
+                                    <li class="main-nav-item first">
+                                       <a href="#discover-menu-list-main" class="text-uppercase" title="Discover Insight" data-toggle="collapse" role="button" aria-controls="discover-menu-list-main" aria-expanded="false">
+                                          Discover Insight
+                                       </a>
+                                       <ul class="collapse list-unstyled main-nav-list-style" id="discover-menu-list-main" style="position: fixed;">
+                                          <li class="main-nav-item-list first">
+                                             <a href="#" title="About">About</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Teachers">Teachers</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Graduates">Graduates</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Press">Press</a>                 
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Scholarship">Scholarship</a>                 
+                                          </li>
+                                          <li class="main-nav-item-list last">
+                                             <a href="#" title="Blog">Blog</a>                 
+                                          </li>
+                                       </ul>
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Collaborate">Collaborate</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Jobs">Jobs</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Events">Events</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Contact">Contact</a>                       
+                                    </li>
+   
+                                 </ul>
+                              </div>
+
+                              <div class="header-menu-options hidden-xs">
+                                 <div class="header-menu-options-wrapper first">
+                                    <a href="#" title="Explore our courses">Explore<br><strong>our courses</strong></a>       
+                                 </div>
+
+                                 <div class="header-menu-options-wrapper">
+                                    <a href="#" title="Explore our courses">Get<br><strong>in touch</strong></a>          
+                                 </div>
+                              </div>
+
+
+                           </div> <!-- end of table row -->
+                     
+                        </div> <!-- end of table-->
+                     
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+         <div id="ins-mn-bdy-cntr" class="common">
+            <div class="sc-mn-ctr">
+               <h1 class="sr-only">Short Course Overview</h1>
+               <div class="sc-bnr-ctr">
+                  <div class="banner-center-text hidden-xs" style="background-image: url(../../assets/images/short-course-banner-desk.png)">
+                     <div class="banner-content"> 
+                     <p id="mob-banner-text">Short courses</p> 
+                     </div>
+                  </div>
+                  <div class="banner-center-text hidden-sm hidden-md hidden-lg" style="background-image: url(../../assets/images/short-course-banner.png)">
+                     <div class="banner-content"> 
+                        <p id="mob-banner-text">Short courses</p> 
+                     </div>
+                  </div>
+               </div>
+
+               <div class="sc-main-text-ctr container">
+                  <div class="row">
+                     <div class="col-xs-12">
+                        <div class="main-text hidden-sm hidden-md hidden-lg">
+                           <p>Our graduates get employed because they are highly skilled, professionally ready and have an impressive portfolio when they step out into the workforce.</p>
+                        </div>
+                        
+                        <div class="main-text hidden-xs">
+                           <h3>Over 15 short courses to choose from</h3>
+                           <p>Our graduates get employed because they are highly skilled, professionally ready and have an impressive portfolio when they step out into the workforce.</p>     
+                        </div>
+
+                        <div class="sc-dropdown-ctr hidden-xs">
+                           <span>By category</span>
+                           <div class="dropdown sc-dropdown">
+                              <button class="sc-dropdown-btn btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 All courses
+                                 <img src="../../assets/images/down-arrow.png">
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                 <li><a href="#">Action</a></li>
+                                 <li><a href="#">Another action</a></li>
+                                 <li><a href="#">Something else here</a></li>
+                                 <li role="separator" class="divider"></li>
+                                 <li><a href="#">Separated link</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               
+               <div class="sc-dropdown-ctr hidden-sm hidden-md hidden-lg">
+                  <div class="dropdown sc-dropdown">
+                     <button class="sc-dropdown-btn btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        All courses
+                        <!-- <i class="fa fa-arrow-down pull-right" aria-hidden="true"></i>-->
+                        <img src="../../assets/images/dropdown-arrow.png">
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                     </ul>
+                  </div>
+               </div>
+               
+
+               <div class="sc-cont-wrp container">
+                  <div class="sc-cont-row row">
+                     <div class="col-xs-6 col-sm-3 month-col hidden-xs">
+                        <div class="month-cards-container">
+                           <div class="month-card">
+                              <p class="courses-text">Courses</p>
+                              <p class="month-text">in June</p>
+                              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                     </div>
+
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 right">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 right">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 month-col hidden-xs">
+                        <div class="month-cards-container">
+                           <div class="month-card">
+                              <p class="courses-text">Courses</p>
+                              <p class="month-text">in July</p>
+                              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 month-col hidden-xs">
+                        <div class="month-cards-container">
+                           <div class="month-card">
+                              <p class="courses-text">Pending</p>
+                              <p class="month-text">courses</p>
+                              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                     <div class="col-xs-6 col-sm-3 left">
+                        <div class="course-container">
+                           <div class="course-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="course-date">
+                                 <span class="hidden-sm hidden-md hidden-lg">12 JUNE</span>
+                                 <span class="hidden-xs">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="course-info">
+                              <p class="course-title">Summer course</p>
+                              <div class="course-details">Introduction to interior design</div>
+                              <p class="course-duration">Duration 6 Days</p>
+                           </div>
+                        </div>       
+                     </div>
+
+                  </div> <!-- end of row -->
+               </div> <!-- end of sc-cont-wrp -->
+               
+
+
+            </div>
+         </div>
+               
+         <div style="padding-bottom: 100px;"></div>
+         <footer id="ins-ftr-common" class="common">
+            <div class="common-footer container">
+               <div class="common-footer-logo hidden-sm hidden-md hidden-lg">
+                  <a href="/" class="footer-ins-link"><img src="../../assets/images/mob-logo.png" class="img-responsive"></a>
+               </div>
+               <div class="common-footer-links">
+                  <ul class="common-footer-ul list-unstyled">
+                     <li class="active">
+                        <a href="#" title="">COURSES</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">ABOUT</a>   
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">COLLABORATE</a>  
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">EVENTS</a>   
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">JOBS</a>  
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">CONTACT</a>   
+                     </li>
+                  </ul>
+
+                  <div class="common-footer-signup">
+                     <a href="#" id="sign-up-link" class="hidden-sm hidden-md hidden-lg">
+                        <div class ="footer-sign-newsletter">Sign up for our newsletter</div>
+                     </a> 
+
+                     <a href="#" id="sign-up-link" class="hidden-xs">
+                        <div class ="footer-sign-newsletter pull-right">Sign up </br><strong>for our newsletter</strong></div>
+                     </a> 
+                  </div>
+               </div>
+
+               <div class="row common-footer-row hidden">
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="">COURSES</a>
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">ABOUT</a>                  
+                  </div>
+   
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">COLLABORATE</a>                  
+                  </div>
+                     
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">EVENTS</a>                  
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">JOBS</a>                  
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">CONTACT</a>                  
+                  </div>
+
+                  <div class="col-xs-12 sign-up-container hidden-sm hidden-md hidden-lg">
+                     <a href="#" id="sign-up-link" class=""><div class ="footer-sign-newsletter">Sign up for our newsletter</div></a> 
+                  </div>
+
+                  <div class="col-xs-12 col-md-3 col-md-push-4 sign-up-container hidden-xs hidden-sm">
+                     <a href="#" id="sign-up-link" class=""><div class ="footer-sign-newsletter pull-right">Sign up </br><strong>for our newsletter</strong></div></a> 
+                  </div>
+               </div>
+               
+            </div>
+         </footer> 
+            
+      </div>
+         
+         
+         <script type="text/javascript" src="../../dist/scripts/bower.js"></script>
+         <script type="text/javascript" src="../../dist/scripts/insight.js"></script>
+      </body>
+   </html>      

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+      <title>Base Template</title>
+      
+      <link rel="stylesheet" type="text/css" href="../../dist/styles/bower.css" />
+      <link rel="stylesheet" type="text/css" href="../../dist/styles/styles.css" />
+      
+      <!--[if lt IE 9]>
+         <script type="text/javascript" src="../../dist/scripts/polyfill.js"></script>
+      <![endif]-->
+   </head>
+
+   <body style="background: #fff;"> 
+      <div id="ins-mn-cntr">
+            
+         <header id="ins-common-header">
+            <!-- OVERLAY -->
+            <div id="mb-nav-ovly-wrp" style="display: none;">
+               <div id="mb-nav-ovly"></div>
+            </div>
+            <!-- END OF OVERLAY -->
+
+            <div class="mn-hdr-bg">
+               <div class="main-nav">
+                  <div class="navbar header-navbar">
+                     
+                     <div class="ins-pg-container-limit container">   
+
+                        <div style="display: table; width: 100%; position: relative;">
+                              
+                           <div style="display: table-row;">
+                              <a href="#" class="hd-ins-link" style="display: table-cell;"><img src="../../assets/images/insight_logo_grey.png" class="img-responsive"></a>
+                                                         
+                     
+                              <div class="landing-menu-wrapper hidden-sm hidden-md hidden-lg" style="display: table-cell;vertical-align: middle;">
+
+                                 <button id="landing-menu-button" type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                 </button>
+                     
+                                 <div class="menu-lbl">MENU</div>
+                              </div>
+
+                              <nav id="mb-nav-menu" data-autohide="false" class="navmenu navmenu-default navmenu-fixed-right offcanvas" role="navigation" style>
+                                    
+                                 <div class="mb-nav-wrp">
+                                    <div id="ins-mb-nav-wrp">
+                                       <ul class="nav navmenu-nav mob-ins-navmenu">
+
+                                          <div class="close-nav">
+                                             <button type="button" class="" data-toggle="offcanvas" data-target="#mb-nav-menu" id="btn-close-nav" title="Close">
+                                                <img src="../../assets/images/ic-close-48px 2.png" alt="Close Icon">
+                                                <span class="close-nav-lbl">CLOSE NAVIGATION</span>
+                                             </button>
+                                          </div>
+
+                                          <li class="ins-mb-nav-itm first black">
+                                             <a href="#" title="Explore our courses"><strong>Explore our courses</strong></a>            
+                                          </li>
+
+                                          <li class="ins-mb-nav-itm black">
+                                             <a href="#" title="Get in touch"><strong>Get in touch</strong></a>            
+                                          </li>
+
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#discover-menu-list" class="" title="Discover Insight" data-toggle="collapse" role="button" aria-controls="discover-menu-list" aria-expanded="false">
+                                                Discover Insight<i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                             </a>               
+                                             <ul class="collapse list-unstyled" id="discover-menu-list">
+                                                <li class="ins-mb-nav-itm sub-itm first">
+                                                   <a href="#" title="About">About</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Teachers">Teachers</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Graduates">Graduates</a>                  
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Press">Press</a>                 
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm">
+                                                   <a href="#" title="Scholarship">Scholarship</a>                 
+                                                </li>
+                                                <li class="ins-mb-nav-itm sub-itm last">
+                                                   <a href="#" title="Blog">Blog</a>                 
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#" title="Title" class="">Collaborate</a>
+                                          </li>
+                                          <li class="ins-mb-nav-itm">
+                                             <a href="#" title="Title" class="">Blog</a>
+                                          </li>
+                                          <li class="ins-mb-nav-itm last">
+                                             <a href="#" title="Title" class="">Jobs</a>
+                                          </li>
+                                       </ul>
+                                    </div>
+            
+                                 </div>
+                              </nav>
+
+                              <div class="landing-menu-wrapper hidden-xs" style="display: table-cell;vertical-align: top; ">
+                                 <ul class="nav navbar-nav navbar-right visible-sm visible-md visible-lg" id="main-nav-list">
+                                    <li class="main-nav-item first">
+                                       <a href="#discover-menu-list-main" class="text-uppercase" title="Discover Insight" data-toggle="collapse" role="button" aria-controls="discover-menu-list-main" aria-expanded="false">
+                                          Discover Insight
+                                       </a>
+                                       <ul class="collapse list-unstyled main-nav-list-style" id="discover-menu-list-main" style="position: fixed;">
+                                          <li class="main-nav-item-list first">
+                                             <a href="#" title="About">About</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Teachers">Teachers</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Graduates">Graduates</a>                  
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Press">Press</a>                 
+                                          </li>
+                                          <li class="main-nav-item-list">
+                                             <a href="#" title="Scholarship">Scholarship</a>                 
+                                          </li>
+                                          <li class="main-nav-item-list last">
+                                             <a href="#" title="Blog">Blog</a>                 
+                                          </li>
+                                       </ul>
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Collaborate">Collaborate</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Jobs">Jobs</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Events">Events</a>                       
+                                    </li>
+   
+                                    <li class="main-nav-item">
+                                       <a href="" id="" class="text-uppercase" title="Contact">Contact</a>                       
+                                    </li>
+   
+                                 </ul>
+                              </div>
+
+                              <div class="header-menu-options hidden-xs">
+                                 <div class="header-menu-options-wrapper first">
+                                    <a href="#" title="Explore our courses">Explore<br><strong>our courses</strong></a>       
+                                 </div>
+
+                                 <div class="header-menu-options-wrapper">
+                                    <a href="#" title="Explore our courses">Get<br><strong>in touch</strong></a>          
+                                 </div>
+                              </div>
+
+
+                           </div> <!-- end of table row -->
+                     
+                        </div> <!-- end of table-->
+                     
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+         <div id="ins-mn-bdy-cntr" class="common">
+            <h1 class="sr-only">Booking</h1>
+            <div class="booking-banner-row row">
+               <div class="booking-banner-col col-xs-12">
+                  <div class="booking-banner" style="background-image: url(../../assets/images/cooking_tile.png)">
+                     <div class="banner-content container">
+                        <p class="banner-text">Course booking</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="information-section container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-6 info-col">
+                     <div class="progress booking-progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="33.333" aria-valuemin="0" aria-valuemax="100" style="width: 33.333%;">
+                           <span class="sr-only">60% Complete</span>
+                        </div>
+                     </div>
+   
+                     <div class="col-xs-12 progress-bar-labels clearfix">
+                        <div class="row">
+                           <div class="col-xs-4 label-col active">
+                              <p class="step-text">STEP 1</p>
+                              <p>Registration</p>
+                           </div>
+   
+                           <div class="col-xs-4 label-col">
+                              <p class="step-text">STEP 2</p>
+                              <p>Payment</p>
+                           </div>
+   
+                           <div class="col-xs-4 label-col">
+                              <p class="step-text">STEP 3</p>
+                              <p>Confirmation</p>   
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-12 reg-message">
+                        <h2 class="reg-hdr">Registration</h2>
+                        <div class="reg-text">
+                           <p class="inline-text">Thank you for your interest! You are going to register and submit payment for</p>
+                           <p class="course-text inline-text">Summer Course: introduction to interior design.</p>
+                           <p class="hidden-xs"></br></p>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-12 b-c-banner">
+                        <div class="b-c-container">
+                           <div class="b-image-container" style="background-image: url(../../assets/images/slider-1.png)">
+                              <div class="b-c-date">
+                                 <span class="">12 JUNE 2017</span>
+                              </div>
+                           </div>
+                           <div class="b-c-info">
+                              <p class="b-c-title">Summer course</p>
+                              <div class="b-c-details">Introduction to interior design</div>
+                              <p class="b-c-duration">Duration 6 Days</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-12 reg-warning">
+                        <div class="reg-text">
+                           <p class="">Before proceeding to payment, please fill in the following details for registration.</p>
+                        </div>
+                     </div>
+
+                  </div>
+
+               </div> <!-- end of row-->
+               
+            </div>
+
+            <div class="row b-c-row">
+               <div class="col-xs-12 contact-info-col">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-6 contact-info-detail">   
+                           <h2 class="reg-hdr">Contact information</h2>
+                           <form>
+                              <div class="form-group">
+                                 <label for="firstName">FIRST NAME</label>
+                                 <input type="text" class="form-control ins-tf" id="firstName">
+                              </div>
+                              <div class="form-group">
+                                 <label for="surName">SURNAME</label>
+                                 <input type="text" class="form-control ins-tf" id="surName">
+                              </div>
+                              <div class="form-group">
+                                 <label for="email">EMAIL</label>
+                                 <input type="text" class="form-control ins-tf" id="email">
+                              </div>
+                              <div class="form-group">
+                                 <label for="phone">PHONE NUMBER</label>
+                                 <input type="text" class="form-control ins-tf" id="phone">
+                              </div>
+                              <div class="form-group">
+                                 <label for="occupation">OCCUPATION</label>
+                                 <input type="text" class="form-control ins-tf" id="occupation">
+                              </div>
+
+                              <div class="form-group tnc-container">
+                                 <div>
+                                    <div class="radio">
+                                       <label>
+                                          <input type="radio" name="tnc" id="tnc-booking" value="tnc">
+                                          I hereby confirm that i have read and agree to <a href="#" title="terms and conditions"> term and conditions</a>
+                                       </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-booking-submit">Proceed to payment</button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div> <!-- end of row --> 
+                  </div> <!-- end of container-->
+               </div>
+            </div>
+
+            <div style="padding-bottom: 50px;"></div>
+         </div>
+         <footer id="ins-ftr-common" class="common">
+            <div class="common-footer container">
+               <div class="common-footer-logo hidden-sm hidden-md hidden-lg">
+                  <a href="/" class="footer-ins-link"><img src="../../assets/images/mob-logo.png" class="img-responsive"></a>
+               </div>
+               <div class="common-footer-links">
+                  <ul class="common-footer-ul list-unstyled">
+                     <li class="active">
+                        <a href="#" title="">COURSES</a>
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">ABOUT</a>   
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">COLLABORATE</a>  
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">EVENTS</a>   
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">JOBS</a>  
+                     </li>
+                     <li>
+                        <a href="#" title="Courses">CONTACT</a>   
+                     </li>
+                  </ul>
+
+                  <div class="common-footer-signup">
+                     <a href="#" id="sign-up-link" class="hidden-sm hidden-md hidden-lg">
+                        <div class ="footer-sign-newsletter">Sign up for our newsletter</div>
+                     </a> 
+
+                     <a href="#" id="sign-up-link" class="hidden-xs">
+                        <div class ="footer-sign-newsletter pull-right">Sign up </br><strong>for our newsletter</strong></div>
+                     </a> 
+                  </div>
+               </div>
+
+               <div class="row common-footer-row hidden">
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="">COURSES</a>
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">ABOUT</a>                  
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">COLLABORATE</a>                  
+                  </div>
+                     
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">EVENTS</a>                  
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">JOBS</a>                  
+                  </div>
+
+                  <div class="col-xs-6 col-sm-1 col-md-1 common-footer-menu">
+                     <a href="#" title="Courses">CONTACT</a>                  
+                  </div>
+
+                  <div class="col-xs-12 sign-up-container hidden-sm hidden-md hidden-lg">
+                     <a href="#" id="sign-up-link" class=""><div class ="footer-sign-newsletter">Sign up for our newsletter</div></a> 
+                  </div>
+
+                  <div class="col-xs-12 col-md-3 col-md-push-4 sign-up-container hidden-xs hidden-sm">
+                     <a href="#" id="sign-up-link" class=""><div class ="footer-sign-newsletter pull-right">Sign up </br><strong>for our newsletter</strong></div></a> 
+                  </div>
+               </div>
+               
+            </div>
+         </footer> 
+         
+      </div>
+      <script type="text/javascript" src="../../dist/scripts/bower.js"></script>
+      <script type="text/javascript" src="../../dist/scripts/insight.js"></script>
+   </body>
+</html>

@@ -1,0 +1,165 @@
+.partner-page.banner-center-text {
+   height: 149px;
+   @media (min-width: $screen-sm){
+      height: 252px;
+   }
+
+   #mob-banner-text {
+
+      @media (min-width: $screen-sm){
+         font-size: 40px;
+         color: #000;
+         text-align: left;
+         width: 100%;
+         margin-left: 0;
+      }
+
+      @media (min-width: $screen-md) {
+         font-size: 40px;
+      }
+   }
+}
+
+
+.partner-page {
+   
+   .prtnr-cont-body {
+      
+      @media (min-width: $screen-sm-min) {
+         margin-bottom: 20px;
+      }
+      
+   }
+   
+   #intro-sec {
+      @media(max-width: $screen-sm){
+        padding-top: 43px;
+      }
+   }
+   
+}
+
+.list-section {
+   @media (max-width: $screen-sm){
+      padding-left: 0;
+      padding-right: 0;
+   }
+}
+
+.partner-mn-cont .intro-section h2{
+   margin-top: 35px;
+
+   @media (min-width: $screen-sm){
+      margin-top: 65px;
+   }
+}
+
+.intro-section-wrp {
+
+   @media (min-width: $screen-sm){  
+      width: 50%;
+   }
+
+   .intro-text {
+      padding-bottom: 45px;
+      padding-top: 20px;
+   }
+}
+
+
+.partner-cont {
+   font-size: 16px;
+   padding: 25px 15px 40px 15px;
+
+   @media (min-width: $screen-sm){
+      padding: 30px 30px 50px 38px;
+   }
+
+   p {
+      margin: 0;
+      display: inline;
+   }
+
+   a {
+      font-size: 18px;
+      color: #000;
+      text-decoration: underline;
+   }
+
+   h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 60px;
+
+      @media (min-width: $screen-sm){
+         margin-top: 20px;
+      }
+   }
+
+   h3, h4, h5 {
+      font-size: 14px;
+      font-weight: bold;
+   }
+
+   ul {
+      padding-left: 17px;
+   }
+
+   &.odd {
+      background-color: #F4F4F4;
+   }
+
+   & .col-odd {
+
+      @media (min-width: $screen-sm){
+         float: right;
+         
+         .img-cont {
+            text-align: right;
+         }
+      }
+   }
+
+   .img-cont {
+      @media (max-width: $screen-sm){
+         float: left;
+      }
+   }
+
+   .img-cont img {
+      display: initial;
+      //max-width: 140px;
+      max-height: 120px;
+      margin-right: 15px;
+
+      @media (min-width: $screen-sm){
+         max-height: 140px;
+         margin-right: 0;
+      }
+   }
+}
+
+.page-cont-mn {
+   //margin-bottom: 303px;
+
+   @media (min-width: $screen-sm){
+      margin-bottom: 35px;
+   }
+}
+
+.partner-hide-show-more {
+   display: none !important;
+}
+
+.prtnr-hd-mb-exc {
+   
+   .excess-default-no {
+      display: none;
+      
+      @media (min-width: $screen-sm-min) {
+         display: block;
+      }
+      
+   }
+   
+}
